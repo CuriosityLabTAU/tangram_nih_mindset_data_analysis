@@ -3,8 +3,12 @@ import json
 
 
 def convert_bag2txt (nBag, topics_list):
+	# creates txt files for each bag by app
+	# bag_free  -> FreeExplorationApp
+	# bag_spatial -> SpatialSkillAssessmentApp
+	# bag_tangram -> TangramMindsetApp
+	# bag_mindset -> mindset_assessment_app
 
-	#creates txt file for each app
 	currentApp=""
 
 	bag = rosbag.Bag('bags/nih_pilot_mindset_subject_id_test' + str(nBag) + '.bag')
@@ -13,20 +17,28 @@ def convert_bag2txt (nBag, topics_list):
 
 	f_spatial = open('processed_data/bag_spatial_'+str(nBag)+'.txt','w')
 	f_free = open('processed_data/bag_free_'+str(nBag)+'.txt','w')
+	f_mindset = open('processed_data/bag_mindset_'+str(nBag)+'.txt','w')
 	f_tangram = open('processed_data/bag_tangram_'+str(nBag)+'.txt','w')
 	f_unknown = open('processed_data/bag_unknown_'+str(nBag)+'.txt','w')
-	for topic, msg, t in bag.read_messages(topics=['/log','/tega']):
+
+	for topic, msg, t in bag.read_messages(topics=topics_list):
+		# detect what is the current app:
 		if ('SpatialSkillAssessmentApp' in str(msg)):
 			currentApp = 'SpatialSkillAssessmentApp'
 		elif ('FreeExplorationApp' in str(msg)):
 			currentApp = 'FreeExplorationApp'
 		elif ('TangramMindsetApp' in str(msg)):
 			currentApp = 'TangramMindsetApp'
+		elif ('mindset_assessment_app' in str(msg)):
+			currentApp = 'mindset_assessment_app'
 
+		# write msg to the current app txt file:
 		if (currentApp == 'SpatialSkillAssessmentApp'):
 			f_spatial.write(str(msg)+'\n')
 		elif (currentApp == 'FreeExplorationApp'):
 			f_free.write(str(msg)+'\n')
+		elif (currentApp == 'mindset_assessment_app'):
+			f_mindset.write(str(msg) + '\n')
 		elif (currentApp == 'TangramMindsetApp'):
 			f_tangram.write(str(msg)+'\n')
 		else:
@@ -35,6 +47,7 @@ def convert_bag2txt (nBag, topics_list):
 	f_spatial.close()
 	f_free.close()
 	f_tangram.close()
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 # convert bag files
