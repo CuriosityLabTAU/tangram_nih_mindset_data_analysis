@@ -2,6 +2,7 @@ import rosbag
 import json
 
 
+
 def convert_bag2txt (nBag, topics_list):
 	# creates txt files for each bag by app
 	# bag_free  -> FreeExplorationApp
@@ -16,6 +17,7 @@ def convert_bag2txt (nBag, topics_list):
 	print(nBag,topics)  # just nice know
 
 	f_spatial = open('processed_data/bag_spatial_'+str(nBag)+'.txt','w')
+	f_spatial_csv = open('processed_data/bag_spatial_'+str(nBag)+".csv", 'w+')
 	f_free = open('processed_data/bag_free_'+str(nBag)+'.txt','w')
 	f_mindset = open('processed_data/bag_mindset_'+str(nBag)+'.txt','w')
 	f_tangram = open('processed_data/bag_tangram_'+str(nBag)+'.txt','w')
@@ -35,6 +37,7 @@ def convert_bag2txt (nBag, topics_list):
 		# write msg to the current app txt file:
 		if (currentApp == 'SpatialSkillAssessmentApp'):
 			f_spatial.write(str(msg)+'\n')
+			read_spatial_skill(topic,msg,t,f_spatial_csv)
 		elif (currentApp == 'FreeExplorationApp'):
 			f_free.write(str(msg)+'\n')
 		elif (currentApp == 'mindset_assessment_app'):
@@ -48,6 +51,34 @@ def convert_bag2txt (nBag, topics_list):
 	f_free.close()
 	f_tangram.close()
 
+def read_spatial_skill(topic,msg,t,f_spatial_csv):
+	print("rinat",msg.data)
+	raw_str = str(msg.data)
+	raw_str = raw_str.replace("u'","'")
+	print("1",raw_str)
+	raw_str = raw_str.replace('"','XXX')
+	print("2",raw_str)
+	raw_str = raw_str.replace("'",'"')
+	print("3",raw_str)
+	raw_Str = raw_str.replace('XXX', "'")
+	print ("4",raw_str)
+	#raw_str = raw_str.encode('utf-8')
+	#raw_str = raw_str.encode('ascii','ignore')
+
+	raw_dict = json.loads(raw_str)
+
+	action =  raw_dict['action']
+	comment = raw_dict['comment']
+	time = raw_dict['time']
+	print(action)
+	f_spatial_csv.write(action+","+comment+","+time+'\n')
+
+	#raw_dict = json.loads(raw_str)
+
+	#dict1 = json.loads('{"action": "data", "comment": "start", "obj": "SpatialSkillAssessmentApp","time": "2016_08_15_21_35_14_188741"}')
+	#dict1 = json.loads("{'action': 'data', 'comment': 'start', 'obj': 'SpatialSkillAssessmentApp','time': '2016_08_15_21_35_14_188741'}")
+
+	#print(dict1)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 # convert bag files

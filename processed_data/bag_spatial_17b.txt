@@ -1,0 +1,99 @@
+data: {u'action': u'data', u'comment': u'start', u'obj': u'SpatialSkillAssessmentApp', u'time': u'2016_08_15_21_35_14_188741'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1346.0, 1070.0)"}', u'obj': u'start_button_pre', u'time': u'2016_08_15_21_35_15_912954'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_pre', u'time': u'2016_08_15_21_35_15_919452'}
+data: {u'action': u'down', u'comment': u'{"pos": "(814.0, 366.0)"}', u'obj': u'1_A', u'time': u'2016_08_15_21_35_28_563242'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'1_A', u'time': u'2016_08_15_21_35_28_655570'}
+data: {u'action': u'up', u'comment': u'{"pos": "(821.0, 357.0)"}', u'obj': u'1_A', u'time': u'2016_08_15_21_35_28_722728'}
+data: {u'action': u'down', u'comment': u'{"pos": "(792.0, 437.00000000000006)"}', u'obj': u'3_A', u'time': u'2016_08_15_21_35_31_168169'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'3_A', u'time': u'2016_08_15_21_35_31_247185'}
+data: {u'action': u'up', u'comment': u'{"pos": "(803.0, 433.00000000000006)"}', u'obj': u'3_A', u'time': u'2016_08_15_21_35_31_317094'}
+data: {u'action': u'down', u'comment': u'{"pos": "(358.0, 863.0)"}', u'obj': u'5_D', u'time': u'2016_08_15_21_35_33_928208'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'5_D', u'time': u'2016_08_15_21_35_34_011159'}
+data: {u'action': u'up', u'comment': u'{"pos": "(353.0, 854.0)"}', u'obj': u'5_D', u'time': u'2016_08_15_21_35_34_050610'}
+data: {u'action': u'down', u'comment': u'{"pos": "(383.0, 322.0)"}', u'obj': u'7_B', u'time': u'2016_08_15_21_35_36_424023'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'7_B', u'time': u'2016_08_15_21_35_36_643346'}
+data: {u'action': u'up', u'comment': u'{"pos": "(383.0, 322.0)"}', u'obj': u'7_B', u'time': u'2016_08_15_21_35_36_691434'}
+data: {u'action': u'down', u'comment': u'{"pos": "(350.0, 891.0)"}', u'obj': u'9_D', u'time': u'2016_08_15_21_35_38_974864'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'9_D', u'time': u'2016_08_15_21_35_39_061508'}
+data: {u'action': u'up', u'comment': u'{"pos": "(349.0, 886.99999999999989)"}', u'obj': u'9_D', u'time': u'2016_08_15_21_35_39_141149'}
+data: {u'action': u'down', u'comment': u'{"pos": "(727.0, 242.99999999999994)"}', u'obj': u'11_A', u'time': u'2016_08_15_21_35_41_526688'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'11_A', u'time': u'2016_08_15_21_35_41_759389'}
+data: {u'action': u'up', u'comment': u'{"pos": "(734.0, 253.00000000000006)"}', u'obj': u'11_A', u'time': u'2016_08_15_21_35_41_798178'}
+data: {u'action': u'down', u'comment': u'{"pos": "(390.0, 225.0)"}', u'obj': u'13_B', u'time': u'2016_08_15_21_35_44_013323'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'13_B', u'time': u'2016_08_15_21_35_44_230916'}
+data: {u'action': u'up', u'comment': u'{"pos": "(390.0, 225.0)"}', u'obj': u'13_B', u'time': u'2016_08_15_21_35_44_298098'}
+data: {u'action': u'down', u'comment': u'{"pos": "(412.0, 274.0)"}', u'obj': u'15_B', u'time': u'2016_08_15_21_35_46_645346'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'15_B', u'time': u'2016_08_15_21_35_46_906140'}
+data: {u'action': u'up', u'comment': u'{"pos": "(411.0, 266.0)"}', u'obj': u'15_B', u'time': u'2016_08_15_21_35_46_953315'}
+data: {u'action': u'down', u'comment': u'{"pos": "(414.0, 218.00000000000003)"}', u'obj': u'17_B', u'time': u'2016_08_15_21_35_49_306104'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'17_B', u'time': u'2016_08_15_21_35_49_403432'}
+data: {u'action': u'up', u'comment': u'{"pos": "(414.0, 218.00000000000003)"}', u'obj': u'17_B', u'time': u'2016_08_15_21_35_49_459814'}
+data: {u'action': u'down', u'comment': u'{"pos": "(422.0, 187.99999999999997)"}', u'obj': u'19_B', u'time': u'2016_08_15_21_35_51_780344'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'19_B', u'time': u'2016_08_15_21_35_51_897054'}
+data: {u'action': u'up', u'comment': u'{"pos": "(418.0, 185.99999999999997)"}', u'obj': u'19_B', u'time': u'2016_08_15_21_35_51_939552'}
+data: {u'action': u'down', u'comment': u'{"pos": "(753.0, 216.00000000000003)"}', u'obj': u'21_A', u'time': u'2016_08_15_21_35_54_734653'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'21_A', u'time': u'2016_08_15_21_35_54_809986'}
+data: {u'action': u'up', u'comment': u'{"pos": "(752.0, 213.00000000000006)"}', u'obj': u'21_A', u'time': u'2016_08_15_21_35_54_896644'}
+data: {u'action': u'down', u'comment': u'{"pos": "(390.0, 767.0)"}', u'obj': u'23_D', u'time': u'2016_08_15_21_35_57_349389'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'23_D', u'time': u'2016_08_15_21_35_57_474532'}
+data: {u'action': u'up', u'comment': u'{"pos": "(387.0, 782.99999999999989)"}', u'obj': u'23_D', u'time': u'2016_08_15_21_35_57_520228'}
+data: {u'action': u'down', u'comment': u'{"pos": "(848.0, 185.99999999999997)"}', u'obj': u'25_A', u'time': u'2016_08_15_21_36_00_248932'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'25_A', u'time': u'2016_08_15_21_36_00_449878'}
+data: {u'action': u'up', u'comment': u'{"pos": "(844.0, 189.99999999999997)"}', u'obj': u'25_A', u'time': u'2016_08_15_21_36_00_496109'}
+data: {u'action': u'down', u'comment': u'{"pos": "(341.0, 849.0)"}', u'obj': u'27_D', u'time': u'2016_08_15_21_36_02_621876'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'27_D', u'time': u'2016_08_15_21_36_02_858072'}
+data: {u'action': u'up', u'comment': u'{"pos": "(341.0, 849.0)"}', u'obj': u'27_D', u'time': u'2016_08_15_21_36_02_932623'}
+data: {u'action': u'down', u'comment': u'{"pos": "(370.0, 222.0)"}', u'obj': u'29_B', u'time': u'2016_08_15_21_36_05_064447'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'29_B', u'time': u'2016_08_15_21_36_05_385532'}
+data: {u'action': u'up', u'comment': u'{"pos": "(369.0, 212.00000000000006)"}', u'obj': u'29_B', u'time': u'2016_08_15_21_36_05_465789'}
+data: {u'action': u'down', u'comment': u'{"pos": "(396.0, 187.99999999999997)"}', u'obj': u'31_B', u'time': u'2016_08_15_21_36_07_777544'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'31_B', u'time': u'2016_08_15_21_36_07_792296'}
+data: {u'action': u'data', u'comment': u'start', u'obj': u'SpatialSkillAssessmentApp', u'time': u'2016_08_15_21_58_46_571341'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1801.0, 1064.0)"}', u'obj': u'start_button_post', u'time': u'2016_08_15_21_58_47_886023'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_post', u'time': u'2016_08_15_21_58_47_973200'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1801.0, 1064.0)"}', u'obj': u'start_button_post', u'time': u'2016_08_15_21_58_48_035767'}
+data: {u'action': u'down', u'comment': u'{"pos": "(819.0, 388.00000000000006)"}', u'obj': u'2_A', u'time': u'2016_08_15_21_59_00_568033'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'2_A', u'time': u'2016_08_15_21_59_00_814176'}
+data: {u'action': u'up', u'comment': u'{"pos": "(804.0, 376.99999999999994)"}', u'obj': u'2_A', u'time': u'2016_08_15_21_59_00_880154'}
+data: {u'action': u'down', u'comment': u'{"pos": "(295.0, 471.99999999999994)"}', u'obj': u'4_B', u'time': u'2016_08_15_21_59_03_701380'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'4_B', u'time': u'2016_08_15_21_59_03_896280'}
+data: {u'action': u'up', u'comment': u'{"pos": "(298.0, 443.0)"}', u'obj': u'4_B', u'time': u'2016_08_15_21_59_03_959996'}
+data: {u'action': u'down', u'comment': u'{"pos": "(316.0, 460.99999999999994)"}', u'obj': u'6_B', u'time': u'2016_08_15_21_59_06_610982'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'6_B', u'time': u'2016_08_15_21_59_06_694498'}
+data: {u'action': u'up', u'comment': u'{"pos": "(319.0, 452.0)"}', u'obj': u'6_B', u'time': u'2016_08_15_21_59_06_737449'}
+data: {u'action': u'down', u'comment': u'{"pos": "(376.0, 449.0)"}', u'obj': u'8_B', u'time': u'2016_08_15_21_59_09_305879'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'8_B', u'time': u'2016_08_15_21_59_09_553300'}
+data: {u'action': u'up', u'comment': u'{"pos": "(372.0, 421.99999999999994)"}', u'obj': u'8_B', u'time': u'2016_08_15_21_59_09_618028'}
+data: {u'action': u'down', u'comment': u'{"pos": "(383.0, 373.99999999999994)"}', u'obj': u'10_B', u'time': u'2016_08_15_21_59_11_999265'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'10_B', u'time': u'2016_08_15_21_59_12_263467'}
+data: {u'action': u'up', u'comment': u'{"pos": "(383.0, 373.99999999999994)"}', u'obj': u'10_B', u'time': u'2016_08_15_21_59_12_325768'}
+data: {u'action': u'down', u'comment': u'{"pos": "(387.0, 425.99999999999994)"}', u'obj': u'12_B', u'time': u'2016_08_15_21_59_14_808903'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'12_B', u'time': u'2016_08_15_21_59_14_905810'}
+data: {u'action': u'up', u'comment': u'{"pos": "(390.0, 419.99999999999994)"}', u'obj': u'12_B', u'time': u'2016_08_15_21_59_15_001754'}
+data: {u'action': u'down', u'comment': u'{"pos": "(392.0, 406.0)"}', u'obj': u'14_B', u'time': u'2016_08_15_21_59_17_273868'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'14_B', u'time': u'2016_08_15_21_59_17_358676'}
+data: {u'action': u'up', u'comment': u'{"pos": "(392.0, 406.0)"}', u'obj': u'14_B', u'time': u'2016_08_15_21_59_17_440073'}
+data: {u'action': u'down', u'comment': u'{"pos": "(396.0, 426.99999999999994)"}', u'obj': u'16_B', u'time': u'2016_08_15_21_59_19_624718'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'16_B', u'time': u'2016_08_15_21_59_19_718380'}
+data: {u'action': u'up', u'comment': u'{"pos": "(396.0, 426.99999999999994)"}', u'obj': u'16_B', u'time': u'2016_08_15_21_59_19_799659'}
+data: {u'action': u'down', u'comment': u'{"pos": "(406.0, 397.0)"}', u'obj': u'18_B', u'time': u'2016_08_15_21_59_22_891591'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'18_B', u'time': u'2016_08_15_21_59_23_071991'}
+data: {u'action': u'up', u'comment': u'{"pos": "(406.0, 397.0)"}', u'obj': u'18_B', u'time': u'2016_08_15_21_59_23_147246'}
+data: {u'action': u'down', u'comment': u'{"pos": "(720.0, 334.99999999999994)"}', u'obj': u'20_A', u'time': u'2016_08_15_21_59_25_496872'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'20_A', u'time': u'2016_08_15_21_59_25_587283'}
+data: {u'action': u'up', u'comment': u'{"pos": "(752.0, 303.00000000000006)"}', u'obj': u'20_A', u'time': u'2016_08_15_21_59_25_657200'}
+data: {u'action': u'down', u'comment': u'{"pos": "(715.0, 332.99999999999994)"}', u'obj': u'22_A', u'time': u'2016_08_15_21_59_27_780913'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'22_A', u'time': u'2016_08_15_21_59_28_217150'}
+data: {u'action': u'up', u'comment': u'{"pos": "(727.0, 302.00000000000006)"}', u'obj': u'22_A', u'time': u'2016_08_15_21_59_28_310532'}
+data: {u'action': u'down', u'comment': u'{"pos": "(328.0, 438.00000000000006)"}', u'obj': u'24_B', u'time': u'2016_08_15_21_59_30_696480'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'24_B', u'time': u'2016_08_15_21_59_30_815080'}
+data: {u'action': u'down', u'comment': u'{"pos": "(329.0, 460.99999999999994)"}', u'obj': u'26_B', u'time': u'2016_08_15_21_59_33_128462'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'26_B', u'time': u'2016_08_15_21_59_33_257640'}
+data: {u'action': u'down', u'comment': u'{"pos": "(319.0, 488.0)"}', u'obj': u'28_B', u'time': u'2016_08_15_21_59_35_685412'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'28_B', u'time': u'2016_08_15_21_59_35_758867'}
+data: {u'action': u'up', u'comment': u'{"pos": "(319.0, 488.0)"}', u'obj': u'28_B', u'time': u'2016_08_15_21_59_35_826133'}
+data: {u'action': u'down', u'comment': u'{"pos": "(804.0, 373.99999999999994)"}', u'obj': u'30_A', u'time': u'2016_08_15_21_59_38_050518'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'30_A', u'time': u'2016_08_15_21_59_38_305551'}
+data: {u'action': u'up', u'comment': u'{"pos": "(766.0, 326.99999999999994)"}', u'obj': u'30_A', u'time': u'2016_08_15_21_59_38_398974'}
+data: {u'action': u'down', u'comment': u'{"pos": "(671.0, 276.0)"}', u'obj': u'32_A', u'time': u'2016_08_15_21_59_40_611144'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'32_A', u'time': u'2016_08_15_21_59_40_633704'}
