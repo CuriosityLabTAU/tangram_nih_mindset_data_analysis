@@ -60,7 +60,7 @@ def read_spatial_skill(topic,msg,t,f_spatial_csv):
 	print("2",raw_str)
 	raw_str = raw_str.replace("'",'"')
 	print("3",raw_str)
-	raw_Str = raw_str.replace('XXX', "'")
+	raw_str = raw_str.replace('XXX', "'")
 	print ("4",raw_str)
 	#raw_str = raw_str.encode('utf-8')
 	#raw_str = raw_str.encode('ascii','ignore')
