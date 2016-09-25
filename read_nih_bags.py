@@ -59,7 +59,7 @@ def convert_bag2txt (nBag, topics_list):
 	f_tangram.close()
 
 def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
-	print("rinat",msg.data)
+	print("goren",msg.data)
 	raw_str = str(msg.data)
 	raw_str = raw_str.replace("u'","'")
 	print("1",raw_str)
@@ -89,6 +89,8 @@ def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 	#raw_dict = json.loads(raw_str)
 
 	#dict1 = json.loads('{"action": "data", "comment": "start", "obj": "SpatialSkillAssessmentApp","time": "2016_08_15_21_35_14_188741"}')
+		s='{"action": "up", "comment": {"pos":"(803.0, 433.00000000000006)"}, "obj": "3_A", "time": "2016_08_15_21_35_31_317094"}'
+		dict1 = json.loads(s)
 	#dict1 = json.loads("{'action': 'data', 'comment': 'start', 'obj': 'SpatialSkillAssessmentApp','time': '2016_08_15_21_35_14_188741'}")
 
 	#print(dict1)
@@ -101,3 +103,4 @@ convert_bag2txt (nBag=14, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=15, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=17, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=18, topics_list=['/log','/tega'])
+convert_bag2txt (nBag=17, topics_list=['/log'])

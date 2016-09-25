@@ -15,57 +15,6 @@ data: {u'action': u'up', u'comment': u'{"pos": "(1751.0, 1118.0)"}', u'obj': u's
 data: {u'action': u'data', u'comment': [u'press_start_button', [], u'tablet', [u'first_screen', None]], u'obj': u'child', u'time': u'2016_08_15_21_38_33_230950'}
 data: {u'action': u'data', u'comment': [u'press_start_button', [], None, [u'idle', None]], u'obj': u'child', u'time': u'2016_08_15_21_38_33_236918'}
 data: {u'action': u'data', u'comment': [u'first_screen', [u'done'], u'robot', [u'introduction', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_38_33_733946'}
-header: 
-  seq: 70
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: YAWN
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 71
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/introduction_0.wav
-header: 
-  seq: 72
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'introduction', [None], u'tablet', [u'yes', None]], u'obj': u'robot', u'time': u'2016_08_15_21_38_56_302689'}
 data: {u'action': u'data', u'comment': [u'introduction', [None], None, [u'idle', None]], u'obj': u'robot', u'time': u'2016_08_15_21_38_56_325678'}
 data: {u'action': u'data', u'comment': [u'yes', [u'done'], u'internal_clock', [u'yes', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_38_56_801671'}
@@ -76,135 +25,16 @@ data: {u'action': u'data', u'comment': [u'press_yes_button', [], u'internal_cloc
 data: {u'action': u'data', u'comment': [u'press_yes_button', [], u'robot', [u'lets_play', None]], u'obj': u'child', u'time': u'2016_08_15_21_38_59_489158'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1003.0, 1079.0)"}', u'obj': u'yes_button', u'time': u'2016_08_15_21_38_59_495352'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1003.0, 1079.0)"}', u'obj': u'yes_button', u'time': u'2016_08_15_21_38_59_501682'}
-header: 
-  seq: 73
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: EXCITED
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 74
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/let_play_0.wav
 data: {u'action': u'data', u'comment': [u'start_tutorial', [u'done'], u'game', [u'generate_selection', None]], u'obj': u'robot', u'time': u'2016_08_15_21_39_13_532410'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_39_14_032851'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']], u'robot', [u'selection_tutorial', [[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']]]], u'obj': u'tablet', u'time': u'2016_08_15_21_39_14_535354'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_39_14_547958'}
-header: 
-  seq: 75
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 76
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/selection_tutorial_all_0.wav
-header: 
-  seq: 77
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/selection_tutorial_c-g+_0.wav
-header: 
-  seq: 78
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'selection_tutorial', [[[u'{"pieces": [["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle1", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 1"], ["small triangle2", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}']]], None, [u'select_treasure', None]], u'obj': u'robot', u'time': u'2016_08_15_21_39_44_602425'}
 data: {u'action': u'data', u'comment': [u'select_treasure', [1, u'done'], u'tablet', [u'select_treasure', 1]], u'obj': u'robot', u'time': u'2016_08_15_21_39_45_101493'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [1], u'game', [u'tangram_selected', 1]], u'obj': u'child', u'time': u'2016_08_15_21_39_46_598692'}
 data: {u'action': u'data', u'comment': [u'tangram_selected', [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}'], u'tablet', [u'tangram_screen', [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["small triangle2", "0", "5 -4"]], "size": "5 5"}']]], u'obj': u'game', u'time': u'2016_08_15_21_39_47_103661'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'robot', [u'tangram_tutorial', u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}']], u'obj': u'tablet', u'time': u'2016_08_15_21_39_47_604411'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_39_47_641086'}
-header: 
-  seq: 79
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/tangram_tutorial_all_0.wav
 data: {u'action': u'data', u'comment': [u'update', [119.75, 120.0], u'tablet', [u'hourglass_update', [119.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_39_48_110460'}
 data: {u'action': u'data', u'comment': [u'update', [119.25, 120.0], u'tablet', [u'hourglass_update', [119.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_39_48_608078'}
 data: {u'action': u'data', u'comment': [u'update', [118.75, 120.0], u'tablet', [u'hourglass_update', [118.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_39_49_109042'}
@@ -236,45 +66,11 @@ data: {u'action': u'data', u'comment': [u'update', [106.25, 120.0], u'tablet', [
 data: {u'action': u'data', u'comment': [u'update', [105.75, 120.0], u'tablet', [u'hourglass_update', [105.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_02_138124'}
 data: {u'action': u'data', u'comment': [u'update', [105.25, 120.0], u'tablet', [u'hourglass_update', [105.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_02_644736'}
 data: {u'action': u'data', u'comment': [u'update', [104.75, 120.0], u'tablet', [u'hourglass_update', [104.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_03_144970'}
-header: 
-  seq: 80
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [104.25, 120.0], u'tablet', [u'hourglass_update', [104.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_03_642656'}
 data: {u'action': u'data', u'comment': [u'tangram_tutorial', [u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}'], None, [u'select_move', u'{"pieces": [["small triangle2", "90", "1 1"]], "size": "5 5"}']], u'obj': u'robot', u'time': u'2016_08_15_21_40_04_146992'}
 data: {u'action': u'data', u'comment': [u'update', [103.75, 120.0], u'tablet', [u'hourglass_update', [103.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_04_181568'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_40_04_686230'}
 data: {u'action': u'data', u'comment': [u'update', [103.75, 120.0], u'tablet', [u'hourglass_update', [103.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_04_704953'}
-header: 
-  seq: 81
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_40_05_184753'}
 data: {u'action': u'data', u'comment': [u'update', [103.25, 120.0], u'tablet', [u'hourglass_update', [103.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_05_231896'}
 data: {u'action': u'data', u'comment': [u'update', [102.75, 120.0], u'tablet', [u'hourglass_update', [102.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_05_683353'}
@@ -289,23 +85,6 @@ data: {u'action': u'data', u'comment': [u'update', [99.75, 120.0], u'tablet', [u
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["small triangle2", "0", "1 1"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_40_08_743712'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_40_09_192848'}
 data: {u'action': u'data', u'comment': [u'update', [99.25, 120.0], u'tablet', [u'hourglass_update', [99.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_09_243738'}
-header: 
-  seq: 82
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_40_09_695196'}
 data: {u'action': u'data', u'comment': [u'update', [98.75, 120.0], u'tablet', [u'hourglass_update', [98.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_09_747949'}
 data: {u'action': u'data', u'comment': [u'update', [98.25, 120.0], u'tablet', [u'hourglass_update', [98.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_10_199338'}
@@ -318,129 +97,10 @@ data: {u'action': u'data', u'comment': [u'solved', u'{"size": "5 5", "pieces": [
 data: {u'action': u'data', u'comment': [u'solved', u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}', u'hourglass', [u'stop', None]], u'obj': u'game', u'time': u'2016_08_15_21_40_12_770698'}
 data: {u'action': u'data', u'comment': [u'update', [95.75, 120.0], u'tablet', [u'hourglass_update', [95.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_12_810649'}
 data: {u'action': u'data', u'comment': [u'solved', u'{"size": "5 5", "pieces": [["small triangle2", "90", "1 1"]]}', u'robot', [u'robot_win', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_13_790110'}
-header: 
-  seq: 83
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 84
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_win_c-g+_2.wav
-header: 
-  seq: 85
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: PROUD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'start_play', None, u'game', [u'generate_selection', None]], u'obj': u'child', u'time': u'2016_08_15_21_40_23_328455'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_40_23_823601'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}']], u'robot', [u'your_turn', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_24_827190'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "90", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "2 1"], ["square", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_24_891144'}
-header: 
-  seq: 86
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_all_5.wav
-header: 
-  seq: 87
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_0.wav
-header: 
-  seq: 88
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 89
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'your_turn', [None, u'done'], u'tablet', [u'enable_tablet', None]], u'obj': u'robot', u'time': u'2016_08_15_21_40_32_359893'}
 data: {u'action': u'down', u'comment': u'{"pos": "(1774.0, 509.99999999999994)"}', u'obj': u'2', u'time': u'2016_08_15_21_40_34_640803'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1774.0, 509.99999999999994)"}', u'obj': u'2', u'time': u'2016_08_15_21_40_34_722075'}
@@ -450,23 +110,6 @@ data: {u'action': u'data', u'comment': [u'press_treasure', [2], u'robot', [u'chi
 data: {u'action': u'data', u'comment': [u'tangram_selected', [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}'], u'tablet', [u'tangram_screen', [u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["parrallelogram", "0", "5 0"]], "size": "5 5"}']]], u'obj': u'game', u'time': u'2016_08_15_21_40_35_381249'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'robot', [u'comment_selection', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_36_868221'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "90", "1 2"], ["small triangle1", "0", "0 2"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_36_931197'}
-header: 
-  seq: 90
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/comment_move_c-g-_5.wav
 data: {u'action': u'data', u'comment': [u'update', [119.75, 120.0], u'tablet', [u'hourglass_update', [119.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_37_367115'}
 data: {u'action': u'up', u'comment': u'{"pos": "(806.0, 521.00000000000011)"}', u'obj': u'0', u'time': u'2016_08_15_21_40_37_804920'}
 data: {u'action': u'data', u'comment': [u'tangram_change', [u'{"pieces": [["large triangle2", "0", "5.0 -4.0"], ["small triangle1", "0", "5.5 -2.5"], ["parrallelogram", "0", "1.0 1.0"]], "size": "5 5"}'], u'game', [u'tangram_changed', u'{"pieces": [["large triangle2", "0", "5.0 -4.0"], ["small triangle1", "0", "5.5 -2.5"], ["parrallelogram", "0", "1.0 1.0"]], "size": "5 5"}']], u'obj': u'child', u'time': u'2016_08_15_21_40_37_867968'}
@@ -495,113 +138,11 @@ data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangl
 data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangle2", "90", "1.0 2.0"], ["small triangle1", "0", "0.0 2.0"], ["parrallelogram", "0", "1.0 1.0"]], "size": "5 5"}', u'hourglass', [u'stop', None]], u'obj': u'game', u'time': u'2016_08_15_21_40_42_941682'}
 data: {u'action': u'data', u'comment': [u'update', [114.25, 120.0], u'tablet', [u'hourglass_update', [114.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_40_42_982384'}
 data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangle2", "90", "1.0 2.0"], ["small triangle1", "0", "0.0 2.0"], ["parrallelogram", "0", "1.0 1.0"]], "size": "5 5"}', u'robot', [u'child_win', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_43_390354'}
-header: 
-  seq: 91
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 92
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_1.wav
-header: 
-  seq: 93
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: EXCITED
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'child_win', [None, u'done'], None, [u'after_child_win', None]], u'obj': u'robot', u'time': u'2016_08_15_21_40_54_412423'}
 data: {u'action': u'data', u'comment': [u'start_play', [u'done'], u'game', [u'generate_selection', None]], u'obj': u'robot', u'time': u'2016_08_15_21_40_55_415727'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_40_55_923648'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'my_turn', [[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_56_445093'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_40_56_479085'}
-header: 
-  seq: 94
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_all_2.wav
-header: 
-  seq: 95
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_c-g+_2.wav
-header: 
-  seq: 96
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'my_turn', [[[u'{"pieces": [["large triangle2", "0", "2 1"], ["small triangle2", "90", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "1 2"], ["square", "180", "1 1"], ["small triangle2", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]], None, [u'select_treasure', None]], u'obj': u'robot', u'time': u'2016_08_15_21_41_02_480015'}
 data: {u'action': u'data', u'comment': [u'select_treasure', [2, u'done'], u'tablet', [u'select_treasure', 2]], u'obj': u'robot', u'time': u'2016_08_15_21_41_02_987693'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [2], u'game', [u'tangram_selected', 2]], u'obj': u'child', u'time': u'2016_08_15_21_41_04_485763'}
@@ -610,23 +151,6 @@ data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["mediu
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["medium triangle", "180", "1 0"], ["square", "180", "1 2"], ["small triangle2", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_41_06_042826'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_36_509755'}
 data: {u'action': u'data', u'comment': [u'update', [30.0, 30.0], u'tablet', [u'hourglass_update', [30.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_36_538322'}
-header: 
-  seq: 97
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_1.wav
 data: {u'action': u'data', u'comment': [u'update', [29.5, 30.0], u'tablet', [u'hourglass_update', [29.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_37_006328'}
 data: {u'action': u'data', u'comment': [u'update', [29.0, 30.0], u'tablet', [u'hourglass_update', [29.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_37_513915'}
 data: {u'action': u'data', u'comment': [u'update', [28.5, 30.0], u'tablet', [u'hourglass_update', [28.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_38_013034'}
@@ -654,23 +178,6 @@ data: {u'action': u'data', u'comment': [u'update', [19.5, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_41_47_155404'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_47_555254'}
 data: {u'action': u'data', u'comment': [u'update', [19.0, 30.0], u'tablet', [u'hourglass_update', [19.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_47_656992'}
-header: 
-  seq: 98
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_48_056760'}
 data: {u'action': u'data', u'comment': [u'update', [18.5, 30.0], u'tablet', [u'hourglass_update', [18.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_48_156853'}
 data: {u'action': u'data', u'comment': [u'update', [18.0, 30.0], u'tablet', [u'hourglass_update', [18.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_48_563923'}
@@ -685,23 +192,6 @@ data: {u'action': u'data', u'comment': [u'update', [15.0, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_41_51_679244'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_52_081459'}
 data: {u'action': u'data', u'comment': [u'update', [14.5, 30.0], u'tablet', [u'hourglass_update', [14.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_52_192285'}
-header: 
-  seq: 99
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_52_584952'}
 data: {u'action': u'data', u'comment': [u'update', [14.0, 30.0], u'tablet', [u'hourglass_update', [14.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_52_672906'}
 data: {u'action': u'data', u'comment': [u'update', [13.5, 30.0], u'tablet', [u'hourglass_update', [13.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_53_091789'}
@@ -716,23 +206,6 @@ data: {u'action': u'data', u'comment': [u'update', [10.5, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_41_56_175290'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_56_612545'}
 data: {u'action': u'data', u'comment': [u'update', [10.0, 30.0], u'tablet', [u'hourglass_update', [10.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_56_682962'}
-header: 
-  seq: 100
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_41_57_109256'}
 data: {u'action': u'data', u'comment': [u'update', [9.5, 30.0], u'tablet', [u'hourglass_update', [9.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_57_215170'}
 data: {u'action': u'data', u'comment': [u'update', [9.0, 30.0], u'tablet', [u'hourglass_update', [9.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_41_57_614380'}
@@ -747,23 +220,6 @@ data: {u'action': u'data', u'comment': [u'update', [6.0, 30.0], u'tablet', [u'ho
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_42_00_741165'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "1 1"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "1 1"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_42_01_131397'}
 data: {u'action': u'data', u'comment': [u'update', [5.5, 30.0], u'tablet', [u'hourglass_update', [5.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_01_242252'}
-header: 
-  seq: 101
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_0.wav
 data: {u'action': u'data', u'comment': [u'update', [5.0, 30.0], u'tablet', [u'hourglass_update', [5.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_01_635366'}
 data: {u'action': u'data', u'comment': [u'update', [4.5, 30.0], u'tablet', [u'hourglass_update', [4.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_02_139121'}
 data: {u'action': u'data', u'comment': [u'update', [4.0, 30.0], u'tablet', [u'hourglass_update', [4.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_02_636035'}
@@ -779,129 +235,10 @@ data: {u'action': u'data', u'comment': [u'finish', [0, 30.0], u'game', [u'finish
 data: {u'action': u'data', u'comment': [u'finish', [0, 30.0], None, [u'stop', None]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_06_715108'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'tablet', [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'game', u'time': u'2016_08_15_21_42_07_161536'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "180", "2 2"], ["small triangle2", "0", "1 1"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'robot_lose', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_07_667893'}
-header: 
-  seq: 102
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 103
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_1.wav
-header: 
-  seq: 104
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'start_play', None, u'game', [u'generate_selection', None]], u'obj': u'child', u'time': u'2016_08_15_21_42_16_708250'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["parrallelogram", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["square", "180", "3 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "1 1"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["parrallelogram", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["square", "180", "3 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "1 1"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_42_17_213433'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["parrallelogram", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["square", "180", "3 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "1 1"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'your_turn', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_17_761257'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 1"], ["parrallelogram", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["parrallelogram", "0", "5 -2"]], "size": "5 5"}'], [u'{"pieces": [["square", "180", "3 2"], ["small triangle2", "90", "2 0"], ["large triangle1", "180", "1 1"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_17_820476'}
-header: 
-  seq: 105
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_all_4.wav
-header: 
-  seq: 106
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_0.wav
-header: 
-  seq: 107
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 108
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'your_turn', [None, u'done'], u'tablet', [u'enable_tablet', None]], u'obj': u'robot', u'time': u'2016_08_15_21_42_25_283665'}
 data: {u'action': u'down', u'comment': u'{"pos": "(1617.0, 429.00000000000006)"}', u'obj': u'2', u'time': u'2016_08_15_21_42_27_999817'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1607.0, 424.99999999999994)"}', u'obj': u'2', u'time': u'2016_08_15_21_42_28_101252'}
@@ -911,23 +248,6 @@ data: {u'action': u'data', u'comment': [u'press_treasure', [2], u'robot', [u'chi
 data: {u'action': u'data', u'comment': [u'tangram_selected', [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], u'tablet', [u'tangram_screen', [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]], u'obj': u'game', u'time': u'2016_08_15_21_42_28_800777'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'robot', [u'comment_selection', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_29_306781'}
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 0"], ["square", "180", "3 2"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_29_396371'}
-header: 
-  seq: 109
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/comment_move_c-g-_5.wav
 data: {u'action': u'data', u'comment': [u'update', [119.75, 120.0], u'tablet', [u'hourglass_update', [119.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_29_813873'}
 data: {u'action': u'data', u'comment': [u'update', [119.25, 120.0], u'tablet', [u'hourglass_update', [119.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_30_319323'}
 data: {u'action': u'data', u'comment': [u'update', [118.75, 120.0], u'tablet', [u'hourglass_update', [118.75, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_30_818434'}
@@ -982,164 +302,11 @@ data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangl
 data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangle2", "180", "0.0 0.0"], ["medium triangle", "180", "2.0 0.0"], ["square", "0", "3.0 2.0"], ["small triangle1", "0", "2.0 2.0"]], "size": "5 5"}', u'hourglass', [u'stop', None]], u'obj': u'game', u'time': u'2016_08_15_21_42_39_169429'}
 data: {u'action': u'data', u'comment': [u'update', [111.25, 120.0], u'tablet', [u'hourglass_update', [111.25, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_42_39_222154'}
 data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangle2", "180", "0.0 0.0"], ["medium triangle", "180", "2.0 0.0"], ["square", "0", "3.0 2.0"], ["small triangle1", "0", "2.0 2.0"]], "size": "5 5"}', u'robot', [u'child_win', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_42_40_192625'}
-header: 
-  seq: 110
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 111
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_1.wav
-header: 
-  seq: 112
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: EXCITED
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 113
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_0.wav
-header: 
-  seq: 114
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: HAPPY_UP
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'child_win', [None, u'done'], None, [u'after_child_win', None]], u'obj': u'robot', u'time': u'2016_08_15_21_42_58_259213'}
 data: {u'action': u'data', u'comment': [u'start_play', [u'done'], u'game', [u'generate_selection', None]], u'obj': u'robot', u'time': u'2016_08_15_21_42_59_261379'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_42_59_763942'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'my_turn', [[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'tablet', u'time': u'2016_08_15_21_43_00_775045'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_43_00_927500'}
-header: 
-  seq: 115
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_all_4.wav
-header: 
-  seq: 116
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_c-g+_0.wav
-header: 
-  seq: 117
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 118
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'my_turn', [[[u'{"pieces": [["medium triangle", "180", "0 0"], ["square", "180", "1 1"], ["large triangle1", "180", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 0"], ["medium triangle", "180", "2 1"], ["square", "180", "3 0"], ["small triangle1", "0", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}']]], None, [u'select_treasure', None]], u'obj': u'robot', u'time': u'2016_08_15_21_43_10_282584'}
 data: {u'action': u'data', u'comment': [u'select_treasure', [2, u'done'], u'tablet', [u'select_treasure', 2]], u'obj': u'robot', u'time': u'2016_08_15_21_43_10_788288'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [2], u'game', [u'tangram_selected', 2]], u'obj': u'child', u'time': u'2016_08_15_21_43_12_300838'}
@@ -1148,23 +315,6 @@ data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "90", "0 2"], ["square", "180", "3 2"], ["small triangle2", "90", "1 1"], ["small triangle1", "0", "2 2"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_43_14_550238'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_39_924883'}
 data: {u'action': u'data', u'comment': [u'update', [30.0, 30.0], u'tablet', [u'hourglass_update', [30.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_39_986499'}
-header: 
-  seq: 119
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_40_421509'}
 data: {u'action': u'data', u'comment': [u'update', [29.5, 30.0], u'tablet', [u'hourglass_update', [29.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_40_518692'}
 data: {u'action': u'data', u'comment': [u'update', [29.0, 30.0], u'tablet', [u'hourglass_update', [29.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_40_928253'}
@@ -1179,23 +329,6 @@ data: {u'action': u'data', u'comment': [u'update', [26.0, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_43_44_082230'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_44_424266'}
 data: {u'action': u'data', u'comment': [u'update', [25.5, 30.0], u'tablet', [u'hourglass_update', [25.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_44_584480'}
-header: 
-  seq: 120
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_44_922125'}
 data: {u'action': u'data', u'comment': [u'update', [25.0, 30.0], u'tablet', [u'hourglass_update', [25.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_45_016957'}
 data: {u'action': u'data', u'comment': [u'update', [24.5, 30.0], u'tablet', [u'hourglass_update', [24.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_45_426364'}
@@ -1210,23 +343,6 @@ data: {u'action': u'data', u'comment': [u'update', [21.5, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_43_48_572524'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_48_917867'}
 data: {u'action': u'data', u'comment': [u'update', [21.0, 30.0], u'tablet', [u'hourglass_update', [21.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_49_065510'}
-header: 
-  seq: 121
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_49_419648'}
 data: {u'action': u'data', u'comment': [u'update', [20.5, 30.0], u'tablet', [u'hourglass_update', [20.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_49_573358'}
 data: {u'action': u'data', u'comment': [u'update', [20.0, 30.0], u'tablet', [u'hourglass_update', [20.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_49_924083'}
@@ -1241,23 +357,6 @@ data: {u'action': u'data', u'comment': [u'update', [17.25, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "0", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_43_53_061881'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_53_443127'}
 data: {u'action': u'data', u'comment': [u'update', [16.75, 30.0], u'tablet', [u'hourglass_update', [16.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_53_607431'}
-header: 
-  seq: 122
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_53_947425'}
 data: {u'action': u'data', u'comment': [u'update', [16.25, 30.0], u'tablet', [u'hourglass_update', [16.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_54_067845'}
 data: {u'action': u'data', u'comment': [u'update', [16.0, 30.0], u'tablet', [u'hourglass_update', [16.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_54_447605'}
@@ -1272,23 +371,6 @@ data: {u'action': u'data', u'comment': [u'update', [12.75, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "0 2"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_43_57_554508'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_57_954326'}
 data: {u'action': u'data', u'comment': [u'update', [12.5, 30.0], u'tablet', [u'hourglass_update', [12.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_58_060734'}
-header: 
-  seq: 123
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_43_58_459323'}
 data: {u'action': u'data', u'comment': [u'update', [12.0, 30.0], u'tablet', [u'hourglass_update', [12.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_58_574656'}
 data: {u'action': u'data', u'comment': [u'update', [11.5, 30.0], u'tablet', [u'hourglass_update', [11.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_43_58_970779'}
@@ -1303,40 +385,6 @@ data: {u'action': u'data', u'comment': [u'update', [8.75, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_44_02_165388'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_44_02_500822'}
 data: {u'action': u'data', u'comment': [u'update', [8.25, 30.0], u'tablet', [u'hourglass_update', [8.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_02_668030'}
-header: 
-  seq: 124
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 125
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_3.wav
 data: {u'action': u'data', u'comment': [u'update', [7.75, 30.0], u'tablet', [u'hourglass_update', [7.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_03_004694'}
 data: {u'action': u'data', u'comment': [u'update', [7.25, 30.0], u'tablet', [u'hourglass_update', [7.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_03_502123'}
 data: {u'action': u'data', u'comment': [u'update', [6.75, 30.0], u'tablet', [u'hourglass_update', [6.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_04_001869'}
@@ -1345,43 +393,9 @@ data: {u'action': u'data', u'comment': [u'update', [5.75, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'update', [5.25, 30.0], u'tablet', [u'hourglass_update', [5.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_05_504561'}
 data: {u'action': u'data', u'comment': [u'update', [4.75, 30.0], u'tablet', [u'hourglass_update', [4.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_06_007527'}
 data: {u'action': u'data', u'comment': [u'update', [4.25, 30.0], u'tablet', [u'hourglass_update', [4.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_06_512786'}
-header: 
-  seq: 126
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [3.75, 30.0], u'tablet', [u'hourglass_update', [3.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_07_009724'}
 data: {u'action': u'data', u'comment': [u'update', [3.25, 30.0], u'tablet', [u'hourglass_update', [3.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_07_515766'}
 data: {u'action': u'data', u'comment': [u'update', [2.75, 30.0], u'tablet', [u'hourglass_update', [2.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_08_011567'}
-header: 
-  seq: 127
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [2.25, 30.0], u'tablet', [u'hourglass_update', [2.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_08_510923'}
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_44_09_018463'}
 data: {u'action': u'data', u'comment': [u'update', [1.75, 30.0], u'tablet', [u'hourglass_update', [1.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_44_09_179108'}
@@ -1394,110 +408,8 @@ data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [
 data: {u'action': u'data', u'comment': [u'tangram_change', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}'], u'game', [u'tangram_changed', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}']], u'obj': u'child', u'time': u'2016_08_15_21_44_11_664481'}
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}', u'tablet', [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}']], u'obj': u'game', u'time': u'2016_08_15_21_44_12_054196'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}', u'robot', [u'robot_lose', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_44_12_203409'}
-header: 
-  seq: 128
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 129
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_1.wav
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "1 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_44_12_559226'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "3 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "5 -4"], ["square", "180", "3 2"], ["small triangle2", "270", "1 3"], ["small triangle1", "0", "3 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_44_13_060079'}
-header: 
-  seq: 130
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 131
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_0.wav
-header: 
-  seq: 132
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 133
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'down', u'comment': u'{"pos": "(2003.0, 1387.0)"}', u'obj': u'stop_button', u'time': u'2016_08_15_21_45_05_339211'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'stop_button', u'time': u'2016_08_15_21_45_05_447272'}
 data: {u'action': u'up', u'comment': u'{"pos": "(2003.0, 1387.0)"}', u'obj': u'stop_button', u'time': u'2016_08_15_21_45_05_529133'}
@@ -1506,74 +418,6 @@ data: {u'action': u'data', u'comment': [u'start_play', None, u'game', [u'generat
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle2", "0", "1 2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 0"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 1"], ["square", "0", "2 1"], ["small triangle2", "270", "2 2"], ["small triangle1", "90", "2 0"], ["large triangle1", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "270", "2 2"], ["large triangle1", "90", "0 1"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 0"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 1"], ["square", "0", "2 1"], ["small triangle2", "270", "2 2"], ["small triangle1", "90", "2 0"], ["large triangle1", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "270", "2 2"], ["large triangle1", "90", "0 1"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_45_06_348692'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 0"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 1"], ["square", "0", "2 1"], ["small triangle2", "270", "2 2"], ["small triangle1", "90", "2 0"], ["large triangle1", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "270", "2 2"], ["large triangle1", "90", "0 1"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}']], u'robot', [u'your_turn', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_45_07_368164'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "0", "1 2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 0"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "1 1"], ["square", "0", "2 1"], ["small triangle2", "270", "2 2"], ["small triangle1", "90", "2 0"], ["large triangle1", "0", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["square", "0", "1 0"], ["small triangle2", "90", "0 0"], ["small triangle1", "270", "2 2"], ["large triangle1", "90", "0 1"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["large triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_45_07_474407'}
-header: 
-  seq: 134
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_all_1.wav
-header: 
-  seq: 135
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_1.wav
-header: 
-  seq: 136
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 137
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'your_turn', [None, u'done'], u'tablet', [u'enable_tablet', None]], u'obj': u'robot', u'time': u'2016_08_15_21_45_16_897602'}
 data: {u'action': u'down', u'comment': u'{"pos": "(1723.0, 426.99999999999994)"}', u'obj': u'2', u'time': u'2016_08_15_21_45_20_638351'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1723.0, 426.99999999999994)"}', u'obj': u'2', u'time': u'2016_08_15_21_45_20_774189'}
@@ -1966,147 +810,11 @@ data: {u'action': u'data', u'comment': [u'finish', [0, 60.0], u'game', [u'finish
 data: {u'action': u'data', u'comment': [u'finish', [0, 60.0], None, [u'stop', None]], u'obj': u'hourglass', u'time': u'2016_08_15_21_46_43_080703'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"pieces": [["large triangle2", "270", "2.0 0.0"], ["large triangle1", "90", "0.0 1.0"], ["small triangle2", "270", "1.0 0.5"], ["small triangle1", "180", "2.5 2.0"], ["square", "0", "2.0 2.0"], ["parrallelogram", "0", "0.0 0.0"]], "size": "5 5"}', u'tablet', [u'finish', u'{"pieces": [["large triangle2", "270", "2.0 0.0"], ["large triangle1", "90", "0.0 1.0"], ["small triangle2", "270", "1.0 0.5"], ["small triangle1", "180", "2.5 2.0"], ["square", "0", "2.0 2.0"], ["parrallelogram", "0", "0.0 0.0"]], "size": "5 5"}']], u'obj': u'game', u'time': u'2016_08_15_21_46_43_341130'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"pieces": [["large triangle2", "270", "2.0 0.0"], ["large triangle1", "90", "0.0 1.0"], ["small triangle2", "270", "1.0 0.5"], ["small triangle1", "180", "2.5 2.0"], ["square", "0", "2.0 2.0"], ["parrallelogram", "0", "0.0 0.0"]], "size": "5 5"}', u'robot', [u'child_lose', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_46_43_840158'}
-header: 
-  seq: 138
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 139
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_lose_c-g+_3.wav
-header: 
-  seq: 140
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'child_lose', [None, u'done'], None, [u'after_child_lose', None]], u'obj': u'robot', u'time': u'2016_08_15_21_46_50_374591'}
 data: {u'action': u'data', u'comment': [u'start_play', [u'done'], u'game', [u'generate_selection', None]], u'obj': u'robot', u'time': u'2016_08_15_21_46_51_376403'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_46_51_873676'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'my_turn', [[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'tablet', u'time': u'2016_08_15_21_46_52_876794'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_46_53_139118'}
-header: 
-  seq: 141
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_all_3.wav
-header: 
-  seq: 142
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 143
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_c-g+_0.wav
-header: 
-  seq: 144
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 145
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'my_turn', [[[u'{"pieces": [["medium triangle", "180", "1 0"], ["small triangle1", "180", "2 2"], ["large triangle1", "90", "0 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle1", "0", "5 -2"], ["large triangle1", "0", "5 0"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "0 1"], ["square", "180", "2 0"], ["small triangle2", "0", "1 0"], ["large triangle1", "270", "2 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']]], None, [u'select_treasure', None]], u'obj': u'robot', u'time': u'2016_08_15_21_47_03_398915'}
 data: {u'action': u'data', u'comment': [u'select_treasure', [1, u'done'], u'tablet', [u'select_treasure', 1]], u'obj': u'robot', u'time': u'2016_08_15_21_47_03_894999'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [1], u'game', [u'tangram_selected', 1]], u'obj': u'child', u'time': u'2016_08_15_21_47_05_397164'}
@@ -2115,23 +823,6 @@ data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["mediu
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["medium triangle", "180", "3 1"], ["square", "180", "2 1"], ["small triangle1", "0", "3 0"], ["parrallelogram", "90", "1 0"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_47_07_068316'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_30_870249'}
 data: {u'action': u'data', u'comment': [u'update', [30.0, 30.0], u'tablet', [u'hourglass_update', [30.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_31_024729'}
-header: 
-  seq: 146
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_31_376011'}
 data: {u'action': u'data', u'comment': [u'update', [29.5, 30.0], u'tablet', [u'hourglass_update', [29.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_31_646163'}
 data: {u'action': u'data', u'comment': [u'update', [29.25, 30.0], u'tablet', [u'hourglass_update', [29.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_31_876422'}
@@ -2146,23 +837,6 @@ data: {u'action': u'data', u'comment': [u'update', [26.75, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "1 1"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_47_35_132034'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "1 1"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "1 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_35_388987'}
 data: {u'action': u'data', u'comment': [u'update', [26.5, 30.0], u'tablet', [u'hourglass_update', [26.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_35_629790'}
-header: 
-  seq: 147
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_4.wav
 data: {u'action': u'data', u'comment': [u'update', [26.25, 30.0], u'tablet', [u'hourglass_update', [26.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_35_886239'}
 data: {u'action': u'data', u'comment': [u'update', [26.0, 30.0], u'tablet', [u'hourglass_update', [26.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_36_391470'}
 data: {u'action': u'data', u'comment': [u'update', [25.5, 30.0], u'tablet', [u'hourglass_update', [25.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_36_897836'}
@@ -2183,23 +857,6 @@ data: {u'action': u'data', u'comment': [u'update', [21.0, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "1 1"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "1 1"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_47_42_639612'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_42_928428'}
 data: {u'action': u'data', u'comment': [u'update', [20.75, 30.0], u'tablet', [u'hourglass_update', [20.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_43_120924'}
-header: 
-  seq: 148
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_4.wav
 data: {u'action': u'data', u'comment': [u'update', [20.5, 30.0], u'tablet', [u'hourglass_update', [20.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_43_424346'}
 data: {u'action': u'data', u'comment': [u'update', [20.25, 30.0], u'tablet', [u'hourglass_update', [20.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_43_920312'}
 data: {u'action': u'data', u'comment': [u'update', [20.0, 30.0], u'tablet', [u'hourglass_update', [20.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_44_422213'}
@@ -2220,23 +877,6 @@ data: {u'action': u'data', u'comment': [u'update', [15.25, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_47_50_228879'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_50_467430'}
 data: {u'action': u'data', u'comment': [u'update', [15.0, 30.0], u'tablet', [u'hourglass_update', [15.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_50_731740'}
-header: 
-  seq: 149
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_50_963590'}
 data: {u'action': u'data', u'comment': [u'update', [14.75, 30.0], u'tablet', [u'hourglass_update', [14.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_51_118819'}
 data: {u'action': u'data', u'comment': [u'update', [14.5, 30.0], u'tablet', [u'hourglass_update', [14.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_51_473021'}
@@ -2251,23 +891,6 @@ data: {u'action': u'data', u'comment': [u'update', [12.25, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "0", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_47_54_699946'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_54_988320'}
 data: {u'action': u'data', u'comment': [u'update', [12.0, 30.0], u'tablet', [u'hourglass_update', [12.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_55_251163'}
-header: 
-  seq: 150
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [11.75, 30.0], u'tablet', [u'hourglass_update', [11.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_55_486137'}
 data: {u'action': u'data', u'comment': [u'update', [11.25, 30.0], u'tablet', [u'hourglass_update', [11.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_47_55_987862'}
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_47_56_494021'}
@@ -2284,23 +907,6 @@ data: {u'action': u'data', u'comment': [u'update', [8.25, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_48_00_166846'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_48_00_506575'}
 data: {u'action': u'data', u'comment': [u'update', [8.0, 30.0], u'tablet', [u'hourglass_update', [8.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_00_710165'}
-header: 
-  seq: 151
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_0.wav
 data: {u'action': u'data', u'comment': [u'update', [7.75, 30.0], u'tablet', [u'hourglass_update', [7.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_01_014540'}
 data: {u'action': u'data', u'comment': [u'update', [7.25, 30.0], u'tablet', [u'hourglass_update', [7.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_01_522821'}
 data: {u'action': u'data', u'comment': [u'update', [6.75, 30.0], u'tablet', [u'hourglass_update', [6.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_02_025734'}
@@ -2324,23 +930,6 @@ data: {u'action': u'data', u'comment': [u'update', [1.75, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_48_09_253117'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["medium triangle", "180", "2 1"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_48_09_545642'}
 data: {u'action': u'data', u'comment': [u'update', [1.5, 30.0], u'tablet', [u'hourglass_update', [1.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_09_748972'}
-header: 
-  seq: 152
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_1.wav
 data: {u'action': u'data', u'comment': [u'update', [1.25, 30.0], u'tablet', [u'hourglass_update', [1.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_10_053125'}
 data: {u'action': u'data', u'comment': [u'update', [1.0, 30.0], u'tablet', [u'hourglass_update', [1.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_10_548803'}
 data: {u'action': u'data', u'comment': [u'update', [0.75, 30.0], u'tablet', [u'hourglass_update', [0.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_11_043932'}
@@ -2350,198 +939,11 @@ data: {u'action': u'data', u'comment': [u'finish', [0, 30.0], u'game', [u'finish
 data: {u'action': u'data', u'comment': [u'finish', [0, 30.0], None, [u'stop', None]], u'obj': u'hourglass', u'time': u'2016_08_15_21_48_12_791690'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}', u'tablet', [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}']], u'obj': u'game', u'time': u'2016_08_15_21_48_13_045446'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["medium triangle", "180", "1 0"], ["square", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "90", "2 0"]]}', u'robot', [u'robot_lose', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_48_13_544302'}
-header: 
-  seq: 153
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 154
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_1.wav
 data: {u'action': u'data', u'comment': [u'explain_move', [None, u'done'], u'tablet', [u'change_pieces', None]], u'obj': u'robot', u'time': u'2016_08_15_21_48_14_043817'}
-header: 
-  seq: 155
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 156
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_0.wav
-header: 
-  seq: 157
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 158
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_6.wav
-header: 
-  seq: 159
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'start_play', None, u'game', [u'generate_selection', u'mark']], u'obj': u'child', u'time': u'2016_08_15_21_48_41_596845'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["large triangle2", "180", "1 1"], ["square", "0", "1 0"], ["small triangle2", "270", "2 0"], ["small triangle1", "0", "1 1"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["parrallelogram", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "90", "2 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "2 3"], ["parrallelogram", "180", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "180", "3 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "90", "0 1"], ["large triangle1", "0", "1 2"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["large triangle1", "0", "5 6"], ["parrallelogram", "0", "5 8"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["large triangle2", "180", "1 1"], ["square", "0", "1 0"], ["small triangle2", "270", "2 0"], ["small triangle1", "0", "1 1"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["parrallelogram", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "90", "2 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "2 3"], ["parrallelogram", "180", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "180", "3 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "90", "0 1"], ["large triangle1", "0", "1 2"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["large triangle1", "0", "5 6"], ["parrallelogram", "0", "5 8"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_48_42_097966'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "180", "1 1"], ["square", "0", "1 0"], ["small triangle2", "270", "2 0"], ["small triangle1", "0", "1 1"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["parrallelogram", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "90", "2 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "2 3"], ["parrallelogram", "180", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "180", "3 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "90", "0 1"], ["large triangle1", "0", "1 2"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["large triangle1", "0", "5 6"], ["parrallelogram", "0", "5 8"]], "size": "5 5"}']], u'robot', [u'your_turn', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_48_43_103730'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["large triangle2", "180", "1 1"], ["square", "0", "1 0"], ["small triangle2", "270", "2 0"], ["small triangle1", "0", "1 1"], ["parrallelogram", "270", "2 0"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"], ["parrallelogram", "0", "5 4"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "90", "2 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "2 3"], ["parrallelogram", "180", "1 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["parrallelogram", "0", "5 6"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "270", "2 0"], ["medium triangle", "180", "3 2"], ["square", "0", "1 1"], ["small triangle2", "90", "1 0"], ["small triangle1", "90", "0 1"], ["large triangle1", "0", "1 2"], ["parrallelogram", "0", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["medium triangle", "0", "5 -2"], ["square", "0", "5 0"], ["small triangle2", "0", "5 2"], ["small triangle1", "0", "5 4"], ["large triangle1", "0", "5 6"], ["parrallelogram", "0", "5 8"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_48_43_309175'}
-header: 
-  seq: 160
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_all_2.wav
-header: 
-  seq: 161
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_1.wav
-header: 
-  seq: 162
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 163
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'your_turn', [None, u'done'], u'tablet', [u'enable_tablet', None]], u'obj': u'robot', u'time': u'2016_08_15_21_48_51_137617'}
 data: {u'action': u'down', u'comment': u'{"pos": "(1193.0, 451.0)"}', u'obj': u'1', u'time': u'2016_08_15_21_49_00_650763'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [1], u'game', [u'tangram_selected', 1]], u'obj': u'child', u'time': u'2016_08_15_21_49_00_865278'}
@@ -2946,232 +1348,11 @@ data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangl
 data: {u'action': u'data', u'comment': [u'update', [184.75, 300.0], u'tablet', [u'hourglass_update', [184.75, 300.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_51_40_534390'}
 data: {u'action': u'data', u'comment': [u'update', [184.5, 300.0], u'tablet', [u'hourglass_update', [184.5, 300.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_51_40_762606'}
 data: {u'action': u'data', u'comment': [u'solved', u'{"pieces": [["large triangle2", "0", "2.0 2.0"], ["medium triangle", "180", "1.0 1.0"], ["square", "0", "2.0 1.0"], ["small triangle2", "180", "2.0 0.0"], ["small triangle1", "180", "3.0 1.0"], ["parrallelogram", "270", "1.0 0.0"]], "size": "5 5"}', u'robot', [u'child_win', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_51_41_923118'}
-header: 
-  seq: 164
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 165
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_1.wav
-header: 
-  seq: 166
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: EXCITED
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 167
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_0.wav
-header: 
-  seq: 168
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: HAPPY_UP
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 169
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/child_win_c-g+_2.wav
-header: 
-  seq: 170
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: LEFTRIGHTLOOKING
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'child_win', [None, u'done'], None, [u'after_child_win', None]], u'obj': u'robot', u'time': u'2016_08_15_21_52_09_536933'}
 data: {u'action': u'data', u'comment': [u'start_play', [u'done'], u'game', [u'generate_selection', None]], u'obj': u'robot', u'time': u'2016_08_15_21_52_10_548544'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_52_11_044803'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'my_turn', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'tablet', u'time': u'2016_08_15_21_52_12_060686'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_52_12_376208'}
-header: 
-  seq: 171
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_all_4.wav
-header: 
-  seq: 172
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_c-g+_0.wav
-header: 
-  seq: 173
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 174
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 175
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/my_turn_c-g+_2.wav
-header: 
-  seq: 176
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'my_turn', [[[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "270", "1 1"], ["small triangle1", "0", "2 2"], ["parrallelogram", "90", "2 2"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["large triangle2", "0", "1 0"], ["square", "0", "1 2"], ["small triangle2", "0", "3 1"], ["parrallelogram", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["large triangle2", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}']]], None, [u'select_treasure', None]], u'obj': u'robot', u'time': u'2016_08_15_21_52_25_160960'}
 data: {u'action': u'data', u'comment': [u'select_treasure', [1, u'done'], u'tablet', [u'select_treasure', 1]], u'obj': u'robot', u'time': u'2016_08_15_21_52_25_663434'}
 data: {u'action': u'data', u'comment': [u'press_treasure', [1], u'game', [u'tangram_selected', 1]], u'obj': u'child', u'time': u'2016_08_15_21_52_27_171634'}
@@ -3180,23 +1361,6 @@ data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["large triangle2", "180", "1 0"], ["square", "270", "0 3"], ["small triangle2", "90", "0 2"], ["small triangle1", "270", "2 2"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_52_29_664985'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_52_55_175072'}
 data: {u'action': u'data', u'comment': [u'update', [30.0, 30.0], u'tablet', [u'hourglass_update', [30.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_52_55_403025'}
-header: 
-  seq: 177
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [29.5, 30.0], u'tablet', [u'hourglass_update', [29.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_52_55_672516'}
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_52_56_172351'}
 data: {u'action': u'data', u'comment': [u'update', [29.25, 30.0], u'tablet', [u'hourglass_update', [29.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_52_56_437775'}
@@ -3214,23 +1378,6 @@ data: {u'action': u'data', u'comment': [u'update', [26.5, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "0", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_01_040138'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_01_271575'}
 data: {u'action': u'data', u'comment': [u'update', [26.25, 30.0], u'tablet', [u'hourglass_update', [26.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_01_500590'}
-header: 
-  seq: 178
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_0.wav
 data: {u'action': u'data', u'comment': [u'update', [25.75, 30.0], u'tablet', [u'hourglass_update', [25.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_01_777658'}
 data: {u'action': u'data', u'comment': [u'update', [25.5, 30.0], u'tablet', [u'hourglass_update', [25.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_02_281919'}
 data: {u'action': u'data', u'comment': [u'update', [25.25, 30.0], u'tablet', [u'hourglass_update', [25.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_02_786088'}
@@ -3255,23 +1402,6 @@ data: {u'action': u'data', u'comment': [u'update', [21.25, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "5 2"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_10_906312'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_13_231003'}
 data: {u'action': u'data', u'comment': [u'update', [21.0, 30.0], u'tablet', [u'hourglass_update', [21.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_13_557125'}
-header: 
-  seq: 179
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [20.75, 30.0], u'tablet', [u'hourglass_update', [20.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_13_797321'}
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_14_294074'}
 data: {u'action': u'data', u'comment': [u'update', [20.25, 30.0], u'tablet', [u'hourglass_update', [20.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_14_670837'}
@@ -3289,23 +1419,6 @@ data: {u'action': u'data', u'comment': [u'update', [17.75, 30.0], u'tablet', [u'
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "0", "0 3"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_19_521520'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_19_815918'}
 data: {u'action': u'data', u'comment': [u'update', [17.75, 30.0], u'tablet', [u'hourglass_update', [17.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_20_112450'}
-header: 
-  seq: 180
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_5.wav
 data: {u'action': u'data', u'comment': [u'update', [17.5, 30.0], u'tablet', [u'hourglass_update', [17.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_20_423213'}
 data: {u'action': u'data', u'comment': [u'update', [17.0, 30.0], u'tablet', [u'hourglass_update', [17.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_20_929170'}
 data: {u'action': u'data', u'comment': [u'update', [16.5, 30.0], u'tablet', [u'hourglass_update', [16.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_21_435833'}
@@ -3328,23 +1441,6 @@ data: {u'action': u'data', u'comment': [u'update', [13.0, 30.0], u'tablet', [u'h
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "2 0"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_28_478568'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_28_786081'}
 data: {u'action': u'data', u'comment': [u'update', [13.0, 30.0], u'tablet', [u'hourglass_update', [13.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_29_079188'}
-header: 
-  seq: 181
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_1.wav
 data: {u'action': u'data', u'comment': [u'update', [12.75, 30.0], u'tablet', [u'hourglass_update', [12.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_29_394987'}
 data: {u'action': u'data', u'comment': [u'update', [12.25, 30.0], u'tablet', [u'hourglass_update', [12.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_29_889945'}
 data: {u'action': u'data', u'comment': [u'update', [11.75, 30.0], u'tablet', [u'hourglass_update', [11.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_30_389695'}
@@ -3372,23 +1468,6 @@ data: {u'action': u'data', u'comment': [u'update', [7.0, 30.0], u'tablet', [u'ho
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_39_837020'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_40_139986'}
 data: {u'action': u'data', u'comment': [u'update', [7.0, 30.0], u'tablet', [u'hourglass_update', [7.0, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_40_440466'}
-header: 
-  seq: 182
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'update', [6.75, 30.0], u'tablet', [u'hourglass_update', [6.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_40_742319'}
 data: {u'action': u'data', u'comment': [u'explain_move', [u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}', u'done'], u'tablet', [u'change_pieces', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_41_245045'}
 data: {u'action': u'data', u'comment': [u'update', [6.25, 30.0], u'tablet', [u'hourglass_update', [6.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_41_604469'}
@@ -3406,23 +1485,6 @@ data: {u'action': u'data', u'comment': [u'update', [3.5, 30.0], u'tablet', [u'ho
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "0", "2 1"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_46_503841'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "0 3"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_46_813520'}
 data: {u'action': u'data', u'comment': [u'update', [3.5, 30.0], u'tablet', [u'hourglass_update', [3.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_47_120589'}
-header: 
-  seq: 183
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_5.wav
 data: {u'action': u'data', u'comment': [u'update', [3.25, 30.0], u'tablet', [u'hourglass_update', [3.25, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_47_452648'}
 data: {u'action': u'data', u'comment': [u'update', [2.75, 30.0], u'tablet', [u'hourglass_update', [2.75, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_47_954587'}
 data: {u'action': u'data', u'comment': [u'update', [2.5, 30.0], u'tablet', [u'hourglass_update', [2.5, 30.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_53_48_455903'}
@@ -3444,299 +1506,10 @@ data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [
 data: {u'action': u'data', u'comment': [u'not_solved', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "0 3"]]}', u'robot', [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "0 3"]]}']], u'obj': u'tablet', u'time': u'2016_08_15_21_53_55_142804'}
 data: {u'action': u'data', u'comment': [u'select_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 1"]]}', None, [u'explain_move', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "2 1"]]}']], u'obj': u'robot', u'time': u'2016_08_15_21_53_55_890923'}
 data: {u'action': u'data', u'comment': [u'finish', u'{"size": "5 5", "pieces": [["large triangle2", "270", "1 1"], ["square", "0", "5 -2"], ["small triangle2", "90", "2 1"], ["small triangle1", "90", "0 3"]]}', u'robot', [u'robot_lose', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_53_56_179759'}
-header: 
-  seq: 184
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: IDLESTILL
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 185
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_1.wav
-header: 
-  seq: 186
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 187
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_0.wav
-header: 
-  seq: 188
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 189
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_6.wav
-header: 
-  seq: 190
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 191
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/robot_lose_c-g+_1.wav
-header: 
-  seq: 192
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: AGREEMENT
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 193
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/move_explanation_c-g+_5.wav
 data: {u'action': u'data', u'comment': [u'start_play', None, u'game', [u'generate_selection', None]], u'obj': u'child', u'time': u'2016_08_15_21_54_29_474557'}
 data: {u'action': u'data', u'comment': [u'generate_selection', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "0", "1 0"], ["small triangle1", "0", "2 2"], ["large triangle1", "270", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "3 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], u'tablet', [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "0", "1 0"], ["small triangle1", "0", "2 2"], ["large triangle1", "270", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "3 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']]]], u'obj': u'game', u'time': u'2016_08_15_21_54_29_978914'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "0", "1 0"], ["small triangle1", "0", "2 2"], ["large triangle1", "270", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "3 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], u'robot', [u'your_turn', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_54_30_979564'}
 data: {u'action': u'data', u'comment': [u'selection_screen', [[u'{"pieces": [["medium triangle", "180", "2 0"], ["small triangle2", "0", "1 0"], ["small triangle1", "0", "2 2"], ["large triangle1", "270", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["square", "270", "2 2"], ["small triangle2", "90", "1 0"], ["small triangle1", "270", "3 2"], ["parrallelogram", "90", "2 0"]], "size": "5 5"}', u'{"pieces": [["square", "0", "5 -4"], ["small triangle2", "0", "5 -2"], ["small triangle1", "0", "5 0"], ["parrallelogram", "0", "5 2"]], "size": "5 5"}'], [u'{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}', u'{"pieces": [["medium triangle", "0", "5 -4"], ["square", "0", "5 -2"], ["small triangle2", "0", "5 0"], ["large triangle1", "0", "5 2"]], "size": "5 5"}']], None, [u'disable_tablet', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_54_31_349022'}
-header: 
-  seq: 194
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_all_5.wav
-header: 
-  seq: 195
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_0.wav
-header: 
-  seq: 196
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 197
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 198
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/your_turn_c-g+_1.wav
-header: 
-  seq: 199
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: SILENT_YES
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
-header: 
-  seq: 200
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: True
-motion: POSE_FORWARD
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: False
-wav_filename: ''
 data: {u'action': u'data', u'comment': [u'your_turn', [None, u'done'], u'tablet', [u'enable_tablet', None]], u'obj': u'robot', u'time': u'2016_08_15_21_54_46_118924'}
 data: {u'action': u'down', u'comment': u'{"pos": "(1665.0, 452.0)"}', u'obj': u'2', u'time': u'2016_08_15_21_54_48_244363'}
 data: {u'action': u'up', u'comment': u'{"pos": "(1665.0, 452.0)"}', u'obj': u'2', u'time': u'2016_08_15_21_54_48_547061'}
@@ -3748,23 +1521,6 @@ data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["mediu
 data: {u'action': u'data', u'comment': [u'tangram_screen', u'{"pieces": [["medium triangle", "0", "0 0"], ["square", "0", "3 1"], ["small triangle2", "90", "0 1"], ["large triangle1", "0", "1 1"]], "size": "5 5"}', u'hourglass', [u'start', None]], u'obj': u'tablet', u'time': u'2016_08_15_21_54_50_950976'}
 data: {u'action': u'down', u'comment': u'{"pos": "(909.0, 452.0)"}', u'obj': u'0', u'time': u'2016_08_15_21_54_51_290888'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'0', u'time': u'2016_08_15_21_54_51_627770'}
-header: 
-  seq: 201
-  stamp: 
-    secs: 0
-    nsecs: 0
-  frame_id: ''
-do_motion: False
-motion: ''
-do_look_at: False
-look_at: 
-  x: 0.0
-  y: 0.0
-  z: 0.0
-do_text_to_speech: False
-tts_text: ''
-do_sound_playback: True
-wav_filename: mindset/comment_move_c-g-_5.wav
 data: {u'action': u'up', u'comment': u'{"pos": "(774.0, 556.99999999999989)"}', u'obj': u'0', u'time': u'2016_08_15_21_54_51_940831'}
 data: {u'action': u'up', u'comment': u'{"pos": "(774.0, 556.99999999999989)"}', u'obj': u'0', u'time': u'2016_08_15_21_54_52_187597'}
 data: {u'action': u'data', u'comment': [u'update', [120.0, 120.0], u'tablet', [u'hourglass_update', [120.0, 120.0]]], u'obj': u'hourglass', u'time': u'2016_08_15_21_54_52_454678'}
