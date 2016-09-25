@@ -1,6 +1,8 @@
 import ast
 import datetime
 
+# returns a list with [child selection, game result, number of moves, total time of game, child_selection,...]
+
 child_play_flag = False
 number_of_moves = 0
 game_result = 0 # 0 for failure, 1 for success
