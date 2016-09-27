@@ -1,0 +1,94 @@
+data: {u'action': u'down', u'comment': u'{"pos": "(414.0, 460.99999999999994)"}', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_550742'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_563328'}
+data: {u'action': u'up', u'comment': u'{"pos": "(414.0, 460.99999999999994)"}', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_685098'}
+data: {u'action': u'up', u'comment': u'{"pos": "(414.0, 460.99999999999994)"}', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_689978'}
+data: {u'action': u'down', u'comment': u'{"pos": "(459.0, 479.00000000000006)"}', u'obj': u'4_B_growth_07_fluffy', u'time': u'2016_09_02_10_59_21_233182'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'4_B_growth_07_fluffy', u'time': u'2016_09_02_10_59_21_240493'}
+data: {u'action': u'up', u'comment': u'{"pos": "(456.0, 477.00000000000006)"}', u'obj': u'4_B_growth_07_fluffy', u'time': u'2016_09_02_10_59_21_369247'}
+data: {u'action': u'up', u'comment': u'{"pos": "(456.0, 477.00000000000006)"}', u'obj': u'4_B_growth_07_fluffy', u'time': u'2016_09_02_10_59_21_375930'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1572.0, 439.00000000000006)"}', u'obj': u'2_A_growth_04_buffy', u'time': u'2016_09_02_10_59_37_541936'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'2_A_growth_04_buffy', u'time': u'2016_09_02_10_59_37_553051'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1543.0, 474.00000000000006)"}', u'obj': u'2_A_growth_04_buffy', u'time': u'2016_09_02_10_59_37_699463'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1543.0, 474.00000000000006)"}', u'obj': u'2_A_growth_04_buffy', u'time': u'2016_09_02_10_59_37_706213'}
+data: {u'action': u'down', u'comment': u'{"pos": "(396.0, 553.0)"}', u'obj': u'1_B_growth_03_fluffy', u'time': u'2016_09_02_10_59_47_445231'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'1_B_growth_03_fluffy', u'time': u'2016_09_02_10_59_47_454380'}
+data: {u'action': u'up', u'comment': u'{"pos": "(396.0, 553.0)"}', u'obj': u'1_B_growth_03_fluffy', u'time': u'2016_09_02_10_59_47_532889'}
+data: {u'action': u'up', u'comment': u'{"pos": "(396.0, 553.0)"}', u'obj': u'1_B_growth_03_fluffy', u'time': u'2016_09_02_10_59_47_540491'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1627.0, 455.0)"}', u'obj': u'5_A_growth_08_buffy', u'time': u'2016_09_02_11_00_02_899110'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'5_A_growth_08_buffy', u'time': u'2016_09_02_11_00_02_911535'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1627.0, 455.0)"}', u'obj': u'5_A_growth_08_buffy', u'time': u'2016_09_02_11_00_02_995613'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1627.0, 455.0)"}', u'obj': u'5_A_growth_08_buffy', u'time': u'2016_09_02_11_00_03_001721'}
+data: {u'action': u'down', u'comment': u'{"pos": "(403.0, 522.00000000000011)"}', u'obj': u'8_B_growth_11_fluffy', u'time': u'2016_09_02_11_00_11_796656'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'8_B_growth_11_fluffy', u'time': u'2016_09_02_11_00_11_820392'}
+data: {u'action': u'up', u'comment': u'{"pos": "(366.0, 502.0)"}', u'obj': u'8_B_growth_11_fluffy', u'time': u'2016_09_02_11_00_11_866055'}
+data: {u'action': u'up', u'comment': u'{"pos": "(366.0, 502.0)"}', u'obj': u'8_B_growth_11_fluffy', u'time': u'2016_09_02_11_00_11_876428'}
+data: {u'action': u'down', u'comment': u'{"pos": "(386.0, 536.0)"}', u'obj': u'7_B_fixed_10_fluffy', u'time': u'2016_09_02_11_00_27_511729'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'7_B_fixed_10_fluffy', u'time': u'2016_09_02_11_00_27_536456'}
+data: {u'action': u'up', u'comment': u'{"pos": "(386.0, 536.0)"}', u'obj': u'7_B_fixed_10_fluffy', u'time': u'2016_09_02_11_00_27_626416'}
+data: {u'action': u'up', u'comment': u'{"pos": "(386.0, 536.0)"}', u'obj': u'7_B_fixed_10_fluffy', u'time': u'2016_09_02_11_00_27_637318'}
+data: {u'action': u'down', u'comment': u'{"pos": "(353.0, 545.0)"}', u'obj': u'6_B_growth_09_fluffy', u'time': u'2016_09_02_11_00_41_132161'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'6_B_growth_09_fluffy', u'time': u'2016_09_02_11_00_41_157958'}
+data: {u'action': u'up', u'comment': u'{"pos": "(365.0, 484.00000000000006)"}', u'obj': u'6_B_growth_09_fluffy', u'time': u'2016_09_02_11_00_41_184783'}
+data: {u'action': u'up', u'comment': u'{"pos": "(365.0, 484.00000000000006)"}', u'obj': u'6_B_growth_09_fluffy', u'time': u'2016_09_02_11_00_41_197725'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1601.0, 449.0)"}', u'obj': u'3_A_fixed_05_buffy', u'time': u'2016_09_02_11_00_49_812952'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'3_A_fixed_05_buffy', u'time': u'2016_09_02_11_00_49_836252'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1596.0, 445.0)"}', u'obj': u'3_A_fixed_05_buffy', u'time': u'2016_09_02_11_00_49_894816'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1596.0, 445.0)"}', u'obj': u'3_A_fixed_05_buffy', u'time': u'2016_09_02_11_00_49_904851'}
+data: {u'action': u'down', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_651586'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_674005'}
+data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_719751'}
+data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_731360'}
+data: {u'action': u'down', u'comment': u'{"pos": "(439.0, 516.99999999999989)"}', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_484123'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_502273'}
+data: {u'action': u'up', u'comment': u'{"pos": "(439.0, 516.99999999999989)"}', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_556939'}
+data: {u'action': u'up', u'comment': u'{"pos": "(439.0, 516.99999999999989)"}', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_560530'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1637.0, 561.99999999999989)"}', u'obj': u'1_A_growth_02_buffy', u'time': u'2016_09_02_11_26_57_368376'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'1_A_growth_02_buffy', u'time': u'2016_09_02_11_26_57_382654'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1637.0, 561.99999999999989)"}', u'obj': u'1_A_growth_02_buffy', u'time': u'2016_09_02_11_26_57_416122'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1637.0, 561.99999999999989)"}', u'obj': u'1_A_growth_02_buffy', u'time': u'2016_09_02_11_26_57_423622'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1646.0, 522.00000000000011)"}', u'obj': u'9_A_fixed_17_buffy', u'time': u'2016_09_02_11_27_39_631646'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'9_A_fixed_17_buffy', u'time': u'2016_09_02_11_27_39_645746'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1654.0, 525.0)"}', u'obj': u'9_A_fixed_17_buffy', u'time': u'2016_09_02_11_27_39_723374'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1654.0, 525.0)"}', u'obj': u'9_A_fixed_17_buffy', u'time': u'2016_09_02_11_27_39_731927'}
+data: {u'action': u'down', u'comment': u'{"pos": "(485.0, 378.99999999999994)"}', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_53_986450'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_54_016682'}
+data: {u'action': u'down', u'comment': u'{"pos": "(419.0, 471.99999999999994)"}', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_54_031887'}
+data: {u'action': u'up', u'comment': u'{"pos": "(485.0, 378.99999999999994)"}', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_54_057672'}
+data: {u'action': u'up', u'comment': u'{"pos": "(485.0, 378.99999999999994)"}', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_54_068788'}
+data: {u'action': u'up', u'comment': u'{"pos": "(454.0, 461.99999999999994)"}', u'obj': u'3_B_fixed_04_fluffy', u'time': u'2016_09_02_11_27_54_088282'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1627.0, 574.0)"}', u'obj': u'8_A_growth_16_buffy', u'time': u'2016_09_02_11_28_06_388563'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'8_A_growth_16_buffy', u'time': u'2016_09_02_11_28_06_405171'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1626.0, 579.0)"}', u'obj': u'8_A_growth_16_buffy', u'time': u'2016_09_02_11_28_06_595096'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1626.0, 579.0)"}', u'obj': u'8_A_growth_16_buffy', u'time': u'2016_09_02_11_28_06_605404'}
+data: {u'action': u'down', u'comment': u'{"pos": "(400.0, 467.99999999999994)"}', u'obj': u'6_B_fixed_08_fluffy', u'time': u'2016_09_02_11_28_21_930477'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'6_B_fixed_08_fluffy', u'time': u'2016_09_02_11_28_21_948643'}
+data: {u'action': u'up', u'comment': u'{"pos": "(396.0, 423.99999999999994)"}', u'obj': u'6_B_fixed_08_fluffy', u'time': u'2016_09_02_11_28_22_198196'}
+data: {u'action': u'up', u'comment': u'{"pos": "(396.0, 423.99999999999994)"}', u'obj': u'6_B_fixed_08_fluffy', u'time': u'2016_09_02_11_28_22_210072'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1639.0, 515.99999999999989)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_47_817938'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_47_842433'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1689.0, 362.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_017333'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1677.0, 364.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_099120'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1687.0, 367.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_117645'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1677.0, 348.00000000000006)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_145642'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1687.0, 367.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_161603'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1700.0, 370.99999999999994)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_190815'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1625.0, 536.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_218982'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1625.0, 536.0)"}', u'obj': u'7_A_fixed_13_buffy', u'time': u'2016_09_02_11_28_48_231307'}
+data: {u'action': u'down', u'comment': u'{"pos": "(439.0, 709.0)"}', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_686136'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_706642'}
+data: {u'action': u'down', u'comment': u'{"pos": "(452.0, 385.00000000000006)"}', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_738493'}
+data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 669.0)"}', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_802363'}
+data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 669.0)"}', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_813685'}
+data: {u'action': u'up', u'comment': u'{"pos": "(457.0, 415.99999999999994)"}', u'obj': u'5_B_growth_07_fluffy', u'time': u'2016_09_02_11_28_58_880807'}
+data: {u'action': u'down', u'comment': u'{"pos": "(364.0, 583.0)"}', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_603735'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_635018'}
+data: {u'action': u'down', u'comment': u'{"pos": "(526.0, 403.0)"}', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_651714'}
+data: {u'action': u'up', u'comment': u'{"pos": "(526.0, 403.0)"}', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_700266'}
+data: {u'action': u'up', u'comment': u'{"pos": "(375.0, 577.0)"}', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_711504'}
+data: {u'action': u'up', u'comment': u'{"pos": "(375.0, 577.0)"}', u'obj': u'2_B_growth_03_fluffy', u'time': u'2016_09_02_11_29_16_721679'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1687.0, 556.99999999999989)"}', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_46_984008'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_47_011491'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1606.0, 377.99999999999994)"}', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_47_039057'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1670.0, 559.99999999999989)"}', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_47_249801'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1670.0, 559.99999999999989)"}', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_47_266826'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1640.0, 383.00000000000006)"}', u'obj': u'4_A_growth_06_buffy', u'time': u'2016_09_02_11_29_47_288319'}
