@@ -6,7 +6,7 @@ import glob
 import re
 
 
-def convert_bag2txt (filename, topics_list):
+def convert_bag2txt (filename, output_dir, topics_list):
 	# creates txt files for each bag by app
 	# bag_free  -> FreeExplorationApp
 	# bag_spatial -> SpatialSkillAssessmentApp
@@ -16,7 +16,7 @@ def convert_bag2txt (filename, topics_list):
 	currentApp=""
 
         file_info = re.split('[_]',filename)
-        pID = file_info[5].lower()
+        pID = file_info[6].lower()
         print pID
 
 	bag = rosbag.Bag(filename)
@@ -24,13 +24,13 @@ def convert_bag2txt (filename, topics_list):
 	#topics = bag.get_type_and_topic_info()[1].keys()  # ['/tega_state', '/tega', '/rosout', '/rosout_agg', '/log', '/robot_affdex']
 	#print(nBag,topics)  # just nice know
 
-	f_spatial = open('processed_data/bag_spatial_'+pID+'.txt','w')
-	f_spatial_csv = open('processed_data/bag_spatial_'+pID+".csv", 'w+')
-	f_spatial_csv.write("action" + "," + "comment" + "," + "time" + '\n')
+	f_spatial = open(output_dir+'/bag_spatial_'+pID+'.txt','w')
+	#f_spatial_csv = open(output_dir+'gbag_spatial_'+pID+".csv", 'w+')
+	#f_spatial_csv.write("action" + "," + "comment" + "," + "time" + '\n')
 
-	f_free = open('processed_data/bag_free_'+pID+'.txt','w')
-	f_mindset = open('processed_data/bag_mindset_'+pID+'.txt','w')
-	f_tangram = open('processed_data/bag_tangram_'+pID+'.txt','w')
+	f_free = open(output_dir+'/bag_free_'+pID+'.txt','w')
+	f_mindset = open(output_dir+'/bag_mindset_'+pID+'.txt','w')
+	f_tangram = open(output_dir+'/bag_tangram_'+pID+'.txt','w')
 
 
 	for topic, msg, t in bag.read_messages(topics=topics_list):
@@ -44,13 +44,13 @@ def convert_bag2txt (filename, topics_list):
                 free_app_keywords = ["FreeExplorationApp",'babyseal','snowman1','penguin','kid4','cloud','dragon','dinosaur','rabbit','bird','princess']
                 start_app_keywords = ["start_button_pre","start_button_post"]
 
-                print currentApp
-                print msg
+                #print currentApp
+                #print msg
 
                 if any(x in str(msg) for x in start_app_keywords):
 		    if (currentApp == 'SpatialSkillAssessmentApp'):
 			f_spatial.write(str(msg)+'\n')
-			read_spatial_skill(topic,msg,strDate,f_spatial_csv)
+			#read_spatial_skill(topic,msg,strDate,f_spatial_csv)
 		    elif (currentApp == 'FreeExplorationApp'):
 			f_free.write(str(msg)+'\n')
                     else:
@@ -70,7 +70,7 @@ def convert_bag2txt (filename, topics_list):
 		    # write msg to the current app txt file:
 		    if (currentApp == 'SpatialSkillAssessmentApp'):
 			f_spatial.write(str(msg)+'\n')
-			read_spatial_skill(topic,msg,strDate,f_spatial_csv)
+			#read_spatial_skill(topic,msg,strDate,f_spatial_csv)
 		    elif (currentApp == 'FreeExplorationApp'):
 			f_free.write(str(msg)+'\n')
 		    elif (currentApp == 'mindset_assessment_app'):
@@ -81,7 +81,7 @@ def convert_bag2txt (filename, topics_list):
         bag.close()
 
 	f_spatial.close()
-	f_spatial_csv.close()
+	#f_spatial_csv.close()
 	f_free.close()
 	f_mindset.close()
 	f_tangram.close()
@@ -108,19 +108,20 @@ def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 	time = raw_dict['time']
 	#print(action)
 
-	if (action=='down'):
+	#if (action=='down'):
 		#comment=
-		f_spatial_csv.write(action+","+comment+","+obj+","+strDate+'\n')
+		#f_spatial_csv.write(action+","+comment+","+obj+","+strDate+'\n')
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 # convert bag files
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 
-dir = "../NIH_grit_pilot_rosbag"
-dir = "./bags"
+dir = "../NIH_grit_pilot_rosbag/"
+output_dir = "results/txt/"
+#dir = "./bags"
 files = glob.glob(dir+"/*.bag")
 
 for filename in files:
     #convert_bag2txt (filename, topics_list=['/log','/tega'])
-	convert_bag2txt(filename, topics_list=['/log'])
+	convert_bag2txt(filename, output_dir, topics_list=['/log'])
 

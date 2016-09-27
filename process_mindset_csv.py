@@ -1,11 +1,12 @@
 import ast
 import datetime
+import os
 
 # returns a list with [child selection, game result, number of moves, total time of game, child_selection,...]
 
-def analyze_spacial_skills (filename, pathname='./processed_data/'):
+def analyze_result(filename, pathname='./processed_data/'):
 
-    with open(pathname + filename, 'r') as fp:
+    with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
             raw_dic = ast.literal_eval(line[6:])
             action = raw_dic['action']
@@ -74,5 +75,5 @@ def analyze_spacial_skills (filename, pathname='./processed_data/'):
     return result_list
 
 
-result = analyze_tangram_game('bag_tangram_17.txt', pathname='./processed_data/')
-print result
+#result = analyze_result('bag_tangram_17.txt', pathname='./processed_data/')
+#print result

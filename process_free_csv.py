@@ -20,7 +20,7 @@ from datetime import datetime
 import numpy as np
 
 
-def analyze_free_exploration(filename, pathname='./processed_data/'):
+def analyze_result(filename, pathname='./processed_data/'):
     data = {'pre': {}, 'post': {}}
 
     with open(pathname + filename, 'r') as fp:
@@ -135,4 +135,4 @@ def sequence_entropy(sequence):
     return entropy
 
 
-results = analyze_free_exploration(filename='bag_free_17.txt')
+#results = analyze_free_exploration(filename='bag_free_17.txt')
