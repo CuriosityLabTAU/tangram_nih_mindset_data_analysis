@@ -1,4 +1,6 @@
 data: {u'action': u'data', u'comment': u'start', u'obj': u'SpatialSkillAssessmentApp', u'time': u'2016_09_02_11_01_06_858221'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1356.0, 1093.0)"}', u'obj': u'start_button_pre', u'time': u'2016_09_02_11_01_08_084699'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_pre', u'time': u'2016_09_02_11_01_08_091855'}
 data: {u'action': u'down', u'comment': u'{"pos": "(769.0, 354.0)"}', u'obj': u'1_A', u'time': u'2016_09_02_11_01_19_790908'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'1_A', u'time': u'2016_09_02_11_01_19_882782'}
 data: {u'action': u'up', u'comment': u'{"pos": "(756.0, 346.00000000000006)"}', u'obj': u'1_A', u'time': u'2016_09_02_11_01_19_955674'}
@@ -48,6 +50,9 @@ data: {u'action': u'down', u'comment': u'{"pos": "(825.0, 970.99999999999989)"}'
 data: {u'action': u'press', u'comment': u'', u'obj': u'31_C', u'time': u'2016_09_02_11_03_00_770761'}
 data: {u'action': u'up', u'comment': u'{"pos": "(829.0, 966.99999999999989)"}', u'obj': u'31_C', u'time': u'2016_09_02_11_03_00_810474'}
 data: {u'action': u'data', u'comment': u'start', u'obj': u'SpatialSkillAssessmentApp', u'time': u'2016_09_02_11_29_53_455015'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1777.0, 1052.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_29_54_269447'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_post', u'time': u'2016_09_02_11_29_54_357168'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1775.0, 1049.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_29_54_417143'}
 data: {u'action': u'down', u'comment': u'{"pos": "(306.0, 947.0)"}', u'obj': u'2_D', u'time': u'2016_09_02_11_30_06_970411'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'2_D', u'time': u'2016_09_02_11_30_07_209334'}
 data: {u'action': u'up', u'comment': u'{"pos": "(306.0, 947.0)"}', u'obj': u'2_D', u'time': u'2016_09_02_11_30_07_273804'}

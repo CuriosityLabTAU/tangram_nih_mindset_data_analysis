@@ -42,25 +42,40 @@ def convert_bag2txt (filename, topics_list):
                 mindset_app_keywords = ['buffy','fluffy']
                 spatial_app_keywords = ["SpatialSkillAssessmentApp","_A'","_B'","_C'","_D'"]
                 free_app_keywords = ["FreeExplorationApp",'babyseal','snowman1','penguin','kid4','cloud','dragon','dinosaur','rabbit','bird','princess']
+                start_app_keywords = ["start_button_pre","start_button_post"]
 
-                if any(x in str(msg) for x in mindset_app_keywords):
-                        currentApp = 'mindset_assessment_app'
-                elif any(x in str(msg) for x in spatial_app_keywords):
-		        currentApp = 'SpatialSkillAssessmentApp'
-                elif any(x in str(msg) for x in free_app_keywords):
-			currentApp = 'FreeExplorationApp'
-                else:
-			currentApp = 'TangramMindsetApp'
+                print currentApp
+                print msg
 
-		# write msg to the current app txt file:
-		if (currentApp == 'SpatialSkillAssessmentApp'):
+                if any(x in str(msg) for x in start_app_keywords):
+		    if (currentApp == 'SpatialSkillAssessmentApp'):
 			f_spatial.write(str(msg)+'\n')
 			read_spatial_skill(topic,msg,strDate,f_spatial_csv)
-		elif (currentApp == 'FreeExplorationApp'):
+		    elif (currentApp == 'FreeExplorationApp'):
 			f_free.write(str(msg)+'\n')
-		elif (currentApp == 'mindset_assessment_app'):
+                    else:
 			f_mindset.write(str(msg) + '\n')
-		elif (currentApp == 'TangramMindsetApp'):
+	
+                else:
+                    if any(x in str(msg) for x in mindset_app_keywords):
+                        currentApp = 'mindset_assessment_app'
+                    elif any(x in str(msg) for x in spatial_app_keywords):
+		        currentApp = 'SpatialSkillAssessmentApp'
+                    elif any(x in str(msg) for x in free_app_keywords):
+			currentApp = 'FreeExplorationApp'
+                    else:
+			currentApp = 'TangramMindsetApp'
+
+                
+		    # write msg to the current app txt file:
+		    if (currentApp == 'SpatialSkillAssessmentApp'):
+			f_spatial.write(str(msg)+'\n')
+			read_spatial_skill(topic,msg,strDate,f_spatial_csv)
+		    elif (currentApp == 'FreeExplorationApp'):
+			f_free.write(str(msg)+'\n')
+		    elif (currentApp == 'mindset_assessment_app'):
+			f_mindset.write(str(msg) + '\n')
+		    elif (currentApp == 'TangramMindsetApp'):
 			f_tangram.write(str(msg)+'\n')
 	
         bag.close()

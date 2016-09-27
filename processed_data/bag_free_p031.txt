@@ -1,5 +1,8 @@
 data: {u'action': u'data', u'comment': u'start', u'obj': u'FreeExplorationApp', u'time': u'2016_09_02_11_03_06_621037'}
 data: {u'action': u'data', u'comment': u'start', u'obj': u'FreeExplorationApp', u'time': u'2016_09_02_11_03_06_618464'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1303.0, 1079.0)"}', u'obj': u'start_button_pre', u'time': u'2016_09_02_11_03_07_794536'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_pre', u'time': u'2016_09_02_11_03_07_808815'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1441.3654333548061, 1076.0)"}', u'obj': u'start_button_pre', u'time': u'2016_09_02_11_03_07_849074'}
 data: {u'action': u'down', u'comment': u'{"pos": "(352.0, 325.99999999999994)"}', u'obj': u'babyseal', u'time': u'2016_09_02_11_03_14_411148'}
 data: {u'action': u'play', u'comment': u"the baby seal's fur is white as snow.", u'obj': u'babyseal', u'time': u'2016_09_02_11_03_14_905736'}
 data: {u'action': u'stop', u'comment': u"the baby seal's fur is white as snow.", u'obj': u'babyseal', u'time': u'2016_09_02_11_03_16_892199'}
@@ -122,6 +125,9 @@ data: {u'action': u'stop', u'comment': u'Penguins in Antarctica have no land bas
 data: {u'action': u'data', u'comment': u'start', u'obj': u'FreeExplorationApp', u'time': u'2016_09_02_11_05_11_214454'}
 data: {u'action': u'data', u'comment': u'start', u'obj': u'FreeExplorationApp', u'time': u'2016_09_02_11_31_45_308003'}
 data: {u'action': u'data', u'comment': u'start', u'obj': u'FreeExplorationApp', u'time': u'2016_09_02_11_31_45_313383'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1689.0, 1040.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_31_46_192502'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_post', u'time': u'2016_09_02_11_31_46_198965'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1819.2987370222413, 1037.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_31_46_227719'}
 data: {u'action': u'down', u'comment': u'{"pos": "(914.0, 493.0)"}', u'obj': u'rabbit', u'time': u'2016_09_02_11_31_56_529504'}
 data: {u'action': u'play', u'comment': u"the rabbit's name is carrot.", u'obj': u'rabbit', u'time': u'2016_09_02_11_31_57_018008'}
 data: {u'action': u'stop', u'comment': u"the rabbit's name is carrot.", u'obj': u'rabbit', u'time': u'2016_09_02_11_31_58_535784'}
