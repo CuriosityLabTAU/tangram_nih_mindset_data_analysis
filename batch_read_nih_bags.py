@@ -16,7 +16,7 @@ def convert_bag2txt (filename, topics_list):
 	currentApp=""
 
         file_info = re.split('[_]',filename)
-        pID = file_info[6].lower()
+        pID = file_info[5].lower()
         print pID
 
 	bag = rosbag.Bag(filename)
@@ -102,8 +102,10 @@ def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 
 dir = "../NIH_grit_pilot_rosbag"
+dir = "./bags"
 files = glob.glob(dir+"/*.bag")
 
 for filename in files:
-    convert_bag2txt (filename, topics_list=['/log','/tega'])
+    #convert_bag2txt (filename, topics_list=['/log','/tega'])
+	convert_bag2txt(filename, topics_list=['/log'])
 

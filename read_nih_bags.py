@@ -1,7 +1,7 @@
 import rosbag
 import json
 import datetime
-
+import ast
 
 def convert_bag2txt (nBag, topics_list):
 	# creates txt files for each bag by app
@@ -61,24 +61,33 @@ def convert_bag2txt (nBag, topics_list):
 def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 	print("goren",msg.data)
 	raw_str = str(msg.data)
-	raw_str = raw_str.replace("u'","'")
-	print("1",raw_str)
-	raw_str = raw_str.replace('"','XXX')
-	print("2",raw_str)
-	raw_str = raw_str.replace("'",'"')
-	print("3",raw_str)
-	raw_str = raw_str.replace('XXX', "'")
-	print ("4",raw_str)
-	#raw_str = raw_str.encode('utf-8')
-	raw_str = raw_str.encode('ascii','ignore')
+	raw_dict = ast.literal_eval(raw_str)
+#	raw_dict['action']
 
-	raw_dict = json.loads(raw_str)
+
+#	raw_str = raw_str.replace("u'","'")
+#	print("1",raw_str)
+#	raw_str = raw_str.replace('"','XXX')
+#	print("2",raw_str)
+#	raw_str = raw_str.replace("'",'"')
+#	print("3",raw_str)
+#	raw_str = raw_str.replace('XXX', "'")
+#	print ("4",raw_str)
+#	#raw_str = raw_str.encode('utf-8')
+#	raw_str = raw_str.encode('ascii','ignore')
+
+#	raw_dict = json.loads(raw_str)
 
 	action =  raw_dict['action']
 	comment = raw_dict['comment']
 	obj = raw_dict['obj']
 	time = raw_dict['time']
 	print(action)
+
+
+
+
+
 
 	if (action=='down'):
 		#comment=
@@ -103,4 +112,6 @@ convert_bag2txt (nBag=14, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=15, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=17, topics_list=['/log','/tega'])
 convert_bag2txt (nBag=18, topics_list=['/log','/tega'])
+
+
 convert_bag2txt (nBag=17, topics_list=['/log'])
