@@ -7,6 +7,7 @@ import process_tangram_csv
 import process_spatial_csv
 import process_mindset_csv
 import process_free_csv
+import analyze_tangram_moves
 
 
 def main(argv):
@@ -32,6 +33,7 @@ def main(argv):
     #init txt files:
     # -------------------------------------------------------------------------------
     f_tangram_txt = open('processed_data/processed/processed_tangram.txt', 'w')
+    f_tangram_grit_txt = open('processed_data/processed/processed_tangram_grit.txt', 'w')
     f_spatial_txt = open('processed_data/processed/processed_spatial.txt', 'w')
     f_mindset_txt = open('processed_data/processed/processed_mindset.txt', 'w')
     f_free_txt = open('processed_data/processed/processed_free.txt', 'w')
@@ -99,11 +101,17 @@ def main(argv):
                 f_free_txt.write('\n')
             elif "tangram" in argv and "tangram" in filename:
                 print(filename)
+                #general:
                 result = process_tangram_csv.analyze_result(filename, root)
                 tangram_matrix.append(result)
                 for data in result:
                     f_tangram_txt.write(str(data) + '\t')
                 f_tangram_txt.write('\n')
+                #grit:
+                result = analyze_tangram_moves.analyze_tangram_grit_moves(filename, root)
+                for data in result:
+                    f_tangram_grit_txt.write(str(data) + '\t')
+                f_tangram_grit_txt.write('\n')
 
     # -------------------------------------------------------------------------------
     # make one big file with all the data

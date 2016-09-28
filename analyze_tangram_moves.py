@@ -1,5 +1,6 @@
 import ast
 import datetime
+import os
 import matplotlib.pyplot as plt
 # returns a list of time stamps of child moves in grit level. time is in seconds relative to beginning of level.
 
@@ -18,7 +19,7 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
     subject_id = subject_id.replace('.txt', '')
     result_list.append(subject_id)
 
-    with open(pathname + filename, 'r') as fp:
+    with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
             #print line[6:]
             dic = ast.literal_eval(line[6:])
