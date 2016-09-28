@@ -18,12 +18,13 @@
 import ast
 from datetime import datetime
 import numpy as np
+import os
 
 
 def analyze_result(filename, pathname='./processed_data/'):
     data = {'pre': {}, 'post': {}}
 
-    with open(pathname + filename, 'r') as fp:
+    with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
             dic = ast.literal_eval(line[6:])
             if len(dic['comment'])>0:

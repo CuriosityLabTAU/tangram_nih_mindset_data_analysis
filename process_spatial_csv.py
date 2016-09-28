@@ -52,6 +52,10 @@ def analyze_result(filename, pathname='./processed_data/'):
                     data[current_game]['time' + str(i)] = total_time
                     i = i + 1
 
+    subject_id = filename.replace('bag_spatial_test','')
+    subject_id = subject_id.replace('.txt','')
+    result_list.append(subject_id)
+
     for game in ["pre","post"]:
         for x in range (0,16):
             result_list.append (data[game]['selection'+str(x)])
@@ -59,5 +63,5 @@ def analyze_result(filename, pathname='./processed_data/'):
             result_list.append(data[game]['time' + str(x)])
     return result_list
 
-#result = analyze_result('bag_spatial_test17.txt', pathname='./processed_data/txt/')
-#print result
+result = analyze_result('bag_spatial_test17.txt', pathname='./processed_data/txt/')
+print result
