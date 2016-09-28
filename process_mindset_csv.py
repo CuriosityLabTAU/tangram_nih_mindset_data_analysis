@@ -16,10 +16,6 @@ def get_headers():
 
 def analyze_result(filename, pathname='./processed_data/'):
     b_start = False
-    #titles_sequence = ["selection_pre1","result_pre1","time_pre1",...]
-
-    correct_sequence = ["1_A","3_B","5_C","7_A","9_D","11_A","13_B","15_A","17_B","19_B","2!_C","23_D","25_D","27_D","29_B","31_C","2_D","4_C","6_D","8_A","10_C","12_D","14_C","16_C","18_A","20_D","22_A","24_B","26_C","28_B","30_A","32_B"]
-   # post_correct_sequence = ["2_D","4_C","6_D","8_A","10_C","12_D","14_C","16_C","18_A","20_D","22_A","24_B","26_C","28_B","30_A","32_B"]
     result_list = []
     data =  {'pre': {}, 'post': {}}
     current_game = 'pre'
