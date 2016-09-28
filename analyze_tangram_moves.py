@@ -4,6 +4,9 @@ import os
 import matplotlib.pyplot as plt
 # returns a list of time stamps of child moves in grit level. time is in seconds relative to beginning of level.
 
+def get_headers():
+    return ['subject_id', 'move_time', 'move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time', 'move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time']
+
 def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
 
     game_counter = -1
