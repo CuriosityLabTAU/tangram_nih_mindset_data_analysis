@@ -3,7 +3,7 @@ import json
 import datetime
 
 import glob
-import re
+import re, time
 
 
 def convert_bag2txt (filename, output_dir, topics_list):
@@ -16,7 +16,7 @@ def convert_bag2txt (filename, output_dir, topics_list):
 	currentApp=""
 		#file_info = re.split('[_]', filename)
         file_info = re.split('[_|.]',filename)  #rinat added . to seperate uid from .bag
-        pID = file_info[6].lower()
+        pID = file_info[8].lower()
         print pID
 
 	bag = rosbag.Bag(filename)
@@ -36,6 +36,9 @@ def convert_bag2txt (filename, output_dir, topics_list):
 	for topic, msg, t in bag.read_messages(topics=topics_list):
 		# detect what is the current app:
 
+                #print(currentApp)
+                #print (msg)
+
 		date = datetime.datetime.fromtimestamp(t.secs)  # converts rospy.rostime.Time to datetime.datetime
 		strDate = date.strftime('%Y-%m-%d-%H-%M-%S')
 
@@ -43,9 +46,10 @@ def convert_bag2txt (filename, output_dir, topics_list):
                 spatial_app_keywords = ["SpatialSkillAssessmentApp","_A'","_B'","_C'","_D'"]
                 free_app_keywords = ["FreeExplorationApp",'babyseal','snowman1','penguin','kid4','cloud','dragon','dinosaur','rabbit','bird','princess']
                 start_app_keywords = ["start_button_pre","start_button_post"]
+                ignore_keywords = ["subject_id"]
 
-                #print currentApp
-                #print msg
+                if any(x in str(msg) for x in ignore_keywords):
+                    continue
 
                 if any(x in str(msg) for x in start_app_keywords):
 		    if (currentApp == 'SpatialSkillAssessmentApp'):
@@ -77,6 +81,7 @@ def convert_bag2txt (filename, output_dir, topics_list):
 			f_mindset.write(str(msg) + '\n')
 		    elif (currentApp == 'TangramMindsetApp'):
 			f_tangram.write(str(msg)+'\n')
+
 	
         bag.close()
 
@@ -116,10 +121,12 @@ def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 # convert bag files
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 
-#dir = "../NIH_grit_pilot_rosbag/"
-dir = "./bags"
-#output_dir = "results/txt/"
-output_dir = "processed_data/txt/"
+dir = "../NIH_grit_pilot_rosbag/"
+#dir = "./bags"
+output_dir = "results/txt/"
+#output_dir = "processed_data/txt/"
+
+#convert_bag2txt('../NIH_grit_pilot_rosbag/nih_pilot_mindset_p006_2016-08-25-13-00-00.bag', output_dir, topics_list=['/log'])
 
 files = glob.glob(dir+"/*.bag")
 

@@ -114,7 +114,7 @@ result = analyze_tangram_grit_moves('bag_tangram_test31.bag.txt', pathname='./pr
 # plt.plot(result)
 # plt.pause(10)
 
-print result
+#print result
 
 # old algorithm that output only the child results
 #

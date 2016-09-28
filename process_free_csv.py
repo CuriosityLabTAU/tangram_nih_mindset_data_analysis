@@ -126,7 +126,7 @@ def analyze_result(filename, pathname='./processed_data/txt/'):
         results['post']['multi_entropy'] = sequence_entropy(data['post']['sequence'])
     except:
         pass
-    print(results)
+    #print(results)
 
     #convert dictionary to list:
     result_list = []
