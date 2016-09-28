@@ -12,6 +12,17 @@ def analyze_result(filename, pathname='./processed_data/'):
    # post_correct_sequence = ["2_D","4_C","6_D","8_A","10_C","12_D","14_C","16_C","18_A","20_D","22_A","24_B","26_C","28_B","30_A","32_B"]
     result_list = []
 
+    data = {'pre': {}, 'post': {}}
+    current_game = 'pre'
+
+    # init an empty dictionary:
+    for game in ["pre", "post"]:
+        for x in range(0, 16):
+            data[game]['selection' + str(x)] = 'Null'
+            data[game]['result' + str(x)] = 'Null'
+            data[game]['time' + str(x)] = 'Null'
+
+
     with open(os.path.join(pathname,filename), 'r') as fp:
         i=0
         for line in fp:
@@ -21,20 +32,32 @@ def analyze_result(filename, pathname='./processed_data/'):
             obj = raw_dic['obj']
             time = raw_dic['time']
 
-            if (comment == 'start'):
-                start_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
             if (action == 'down'):
-                end_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
-                total_time = end_time - start_time
-                start_time = end_time
-                result_list.append(obj)
-                if (obj == correct_sequence[i]):
-                    result_list.append(1)
+                if (obj == 'start_button_pre'):
+                    start_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
+                    current_game="pre"
+                elif (obj == 'start_button_post'):
+                    start_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
+                    current_game = "post"
+                    i=0
                 else:
-                    result_list.append(0)
-                i = i + 1
-                result_list.append(total_time.total_seconds())
+                    end_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
+                    total_time = (end_time - start_time).total_seconds()
+                    start_time = end_time
+                    data[current_game]['selection' + str(i)] = obj
+                    if (obj == correct_sequence[i]):
+                        data[current_game]['result' + str(i)] = 1
+                    else:
+                        data[current_game]['result' + str(i)] = 0
+                    data[current_game]['time' + str(i)] = total_time
+                    i = i + 1
+
+    for game in ["pre","post"]:
+        for x in range (0,16):
+            result_list.append (data[game]['selection'+str(x)])
+            result_list.append (data[game]['result'+str(x)])
+            result_list.append(data[game]['time' + str(x)])
     return result_list
 
-result = analyze_result('bag_spatial_test31.bag.txt', pathname='./processed_data/')
-print result
+#result = analyze_result('bag_spatial_test17.txt', pathname='./processed_data/txt/')
+#print result

@@ -14,13 +14,19 @@ def analyze_result(filename, pathname='./processed_data/'):
     data =  {'pre': {}, 'post': {}}
     current_game = 'pre'
 
+    #init an empty dictionary:
+    for game in ["pre","post"]:
+        for x in range (0,10):
+            data[game]['selection'+str(x)]='Null'
+            data[game]['result'+str(x)]='Null'
+            data[game]['time' + str(x)] = 'Null'
+
     with open(os.path.join(pathname,filename), 'r') as fp:
         i=0
         for line in fp:
 
             raw_dic = ast.literal_eval(line[6:])
             action = raw_dic['action']
-            comment = raw_dic['comment']
             obj = raw_dic['obj']
 
             if (b_start == False):
@@ -28,26 +34,24 @@ def analyze_result(filename, pathname='./processed_data/'):
                 b_start = True
             if (action == 'down'):
                 index = str(obj[0])
-                print(index)
                 end_time = datetime.datetime.strptime(raw_dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                 total_time = (end_time - start_time).total_seconds()
                 if (total_time>300):  #indicating switch to post
                     current_game = 'post'
-                print(total_time)
                 start_time = end_time
 
                 data[current_game]['selection'+index] = obj
-                data[current_game]['time'+index] = total_time
                 data[current_game]['result'+index] = obj[4]
+                data[current_game]['time' + index] = total_time
                 i = i + 1
 
     #generate result_list from data dictionary:
     for game in ["pre","post"]:
         for x in range (0,10):
             result_list.append (data[game]['selection'+str(x)])
-            result_list.append (data[game]['time'+str(x)])
             result_list.append (data[game]['result'+str(x)])
+            result_list.append(data[game]['time' + str(x)])
     return result_list
 
-result = analyze_result('bag_mindset_p031.txt', pathname='./processed_data/')
-print result
+#result = analyze_result('bag_mindset_test31.txt', pathname='./processed_data/txt/')
+#print result
