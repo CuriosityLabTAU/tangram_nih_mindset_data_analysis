@@ -12,7 +12,8 @@ import process_free_csv
 def main(argv):
 
     dir = "./results/txt"
-        
+    dir = "./processed_data/txt"
+
     if argv[0] == '-h':
         print 'batch_process_result_csv.py <analysis_argv1> <analysis_argv2> ...'
         sys.exit()
@@ -37,8 +38,9 @@ def main(argv):
             elif "free" in argv and "free" in filename:
                 print(filename)
                 result = process_free_csv.analyze_result(filename, root)
-                
             print result
+
+
 
 
 if __name__ == "__main__":

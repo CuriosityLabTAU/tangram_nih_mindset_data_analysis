@@ -43,11 +43,11 @@ def analyze_result(filename, pathname='./processed_data/'):
 
     #generate result_list from data dictionary:
     for game in ["pre","post"]:
-        for x in range (0,9):
+        for x in range (0,10):
             result_list.append (data[game]['selection'+str(x)])
             result_list.append (data[game]['time'+str(x)])
             result_list.append (data[game]['result'+str(x)])
     return result_list
 
-result = analyze_result('bag_mindset_test31.bag.txt', pathname='./processed_data/')
+result = analyze_result('bag_mindset_p031.txt', pathname='./processed_data/')
 print result
