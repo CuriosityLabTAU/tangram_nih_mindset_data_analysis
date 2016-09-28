@@ -16,7 +16,7 @@ def main(argv):
 
     if len(argv) == 0:
         argv = ['tangram', 'mindset', 'spatial', 'free']
-        argv = ['tangram', 'mindset', 'spatial']
+        argv = ['tangram', 'mindset', 'spatial', 'free']
     elif argv[0] == '-h':
         print 'batch_process_result_csv.py <analysis_argv1> <analysis_argv2> ...'
         sys.exit()
@@ -25,29 +25,34 @@ def main(argv):
     print("Analysis Type = ", argv)
 
     #init txt files:
+    f_tangram_txt = open('processed_data/processed/processed_tangram.txt', 'w')
     f_spatial_txt = open('processed_data/processed/processed_spatial.txt', 'w')
     f_mindset_txt = open('processed_data/processed/processed_mindset.txt', 'w')
-    f_tangram_txt = open('processed_data/processed/processed_tangram.txt', 'w')
     f_free_txt = open('processed_data/processed/processed_free.txt', 'w')
 
-    #set headers of files:
+    f_all_txt = open('processed_data/processed/processed_all.txt', 'w')
+
+    #set headers:
     headers_tangram = process_tangram_csv.get_headers()
-    header_mindset = process_mindset_csv.get_headers()
-    header_spatial = process_spatial_csv.get_headers()
+    headers_mindset = process_mindset_csv.get_headers()
+    headers_spatial = process_spatial_csv.get_headers()
+    headers_free = process_free_csv.get_headers()
 
     for header in headers_tangram:
         f_tangram_txt.write(str(header) + '\t')
     f_tangram_txt.write('\n')
 
-    for header in header_mindset:
+    for header in headers_mindset:
         f_mindset_txt.write(str(header) + '\t')
     f_mindset_txt.write('\n')
 
-    for header in header_spatial:
+    for header in headers_spatial:
         f_spatial_txt.write(str(header) + '\t')
     f_spatial_txt.write('\n')
 
-
+    for header in headers_free:
+        f_free_txt.write(str(header) + '\t')
+    f_free_txt.write('\n')
 
     result=''
     for root, subdirs, files in os.walk(dir):

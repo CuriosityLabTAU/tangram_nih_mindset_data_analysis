@@ -20,8 +20,11 @@ from datetime import datetime
 import numpy as np
 import os
 
+def get_headers():
+    return ['subject_id', 'pre_t0', 'pre_total_duration', 'pre_multi_entropy', 'post_t0', 'post_total_duration', 'post_multi_entropy']
 
-def analyze_result(filename, pathname='./processed_data/'):
+
+def analyze_result(filename, pathname='./processed_data/txt/'):
     data = {'pre': {}, 'post': {}}
 
     with open(os.path.join(pathname,filename), 'r') as fp:
@@ -99,9 +102,11 @@ def analyze_result(filename, pathname='./processed_data/'):
                 post_first_t0 = min([post_first_t0, p['start']])
         except:
             pass
-
-    results['pre']['t0'] = (pre_first_t0 - data['pre']['start']).total_seconds()
-    results['post']['t0'] = (post_first_t0 - data['post']['start']).total_seconds()
+    try:
+        results['pre']['t0'] = (pre_first_t0 - data['pre']['start']).total_seconds()
+        results['post']['t0'] = (post_first_t0 - data['post']['start']).total_seconds()
+    except:
+        pass
 
     # calculate total_duration: total time that had playing sound
     for p in data['pre'].values():
@@ -116,11 +121,26 @@ def analyze_result(filename, pathname='./processed_data/'):
             pass
 
     # calculate multi_entropy: the entropy of the different characters
-
-    results['pre']['multi_entropy'] = sequence_entropy(data['pre']['sequence'])
-    results['post']['multi_entropy'] = sequence_entropy(data['post']['sequence'])
+    try:
+        results['pre']['multi_entropy'] = sequence_entropy(data['pre']['sequence'])
+        results['post']['multi_entropy'] = sequence_entropy(data['post']['sequence'])
+    except:
+        pass
     print(results)
-    return results
+
+    #convert dictionary to list:
+    result_list = []
+
+    subject_id = filename.replace('bag_free_test','')
+    subject_id = subject_id.replace('.txt','')
+    result_list.append(subject_id)
+    result_list.append(results['pre']['t0'])
+    result_list.append(results['pre']['total_duration'])
+    result_list.append(results['pre']['multi_entropy'])
+    result_list.append(results['post']['t0'])
+    result_list.append(results['post']['total_duration'])
+    result_list.append(results['post']['multi_entropy'])
+    return result_list
 
 
 def sequence_entropy(sequence):
@@ -136,4 +156,5 @@ def sequence_entropy(sequence):
     return entropy
 
 
-#results = analyze_free_exploration(filename='bag_free_17.txt')
+#results = analyze_result(filename='bag_free_test14.txt')
+#print(results)
