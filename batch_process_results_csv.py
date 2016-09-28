@@ -66,7 +66,7 @@ def main(argv):
         f_all_txt.write(str(header) + '\t')
     f_tangram_txt.write('\n')
 
-    f_all_txt.write(str(header) + '\n')
+    f_all_txt.write('\n')
 
     result=''
 
