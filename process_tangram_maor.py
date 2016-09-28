@@ -4,7 +4,7 @@ import datetime
 # returns a list with [who_is_playing ('R'/'C'), start_time, child selection, end_time, game result, number of moves, total time of game, who_is_playing, ...]
 
 
-def analyze_tangram_game(filename, pathname='./processed_data/'):
+def analyze_tangram_game(filename, pathname='./processed_data/txt/'):
 
     who_is_playing = 'R' # can be 'R' or 'C'
     child_play_flag = False
@@ -98,13 +98,13 @@ def analyze_tangram_game(filename, pathname='./processed_data/'):
     return result_list
 
 
-result = analyze_tangram_game('bag_tangram_test31.bag.txt', pathname='./processed_data/')
+result = analyze_tangram_game('bag_tangram_test31.txt', pathname='./processed_data/txt/')
 # result = analyze_tangram_game('maor_test_bag.bag.txt', pathname='./processed_data/')
 # print len(result)
 if len(result) < 70:
     for n in range(70-len(result)):
         result.append('NULL')
-# print result
+print result
 
 # old algorithm that output only the child results
 #
