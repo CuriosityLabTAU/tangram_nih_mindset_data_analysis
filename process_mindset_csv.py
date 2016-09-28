@@ -4,6 +4,9 @@ import os
 
 # returns a list with [child selection, game result, number of moves, total time of game, child_selection,...]
 
+def get_headers():
+    return ['subject_id', 'selection_pre1','result_pre1','time_pre1']
+
 def analyze_result(filename, pathname='./processed_data/'):
     b_start = False
     #titles_sequence = ["selection_pre1","result_pre1","time_pre1",...]
@@ -46,6 +49,10 @@ def analyze_result(filename, pathname='./processed_data/'):
                 i = i + 1
 
     #generate result_list from data dictionary:
+    subject_id = filename.replace('bag_mindset_test','')
+    subject_id = subject_id.replace('.txt','')
+    result_list.append(subject_id)
+
     for game in ["pre","post"]:
         for x in range (0,10):
             result_list.append (data[game]['selection'+str(x)])

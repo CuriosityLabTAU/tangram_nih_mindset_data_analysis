@@ -24,14 +24,17 @@ def main(argv):
 
     print("Analysis Type = ", argv)
 
-    tangram_matrix = []
-    mindset_matrix = []
-    spatial_matrix = []
-    free_matrix =[]
-    f_spatial_csv = open('processed_data/processed/processed_spatial.csv', 'w')
-    f_mindset_csv = open('processed_data/processed/processed_mindset.csv', 'w')
-    f_tangram_csv = open('processed_data/processed/processed_tangram.csv', 'w')
-    f_free_csv = open('processed_data/processed/processed_free.csv', 'w')
+    f_spatial_txt = open('processed_data/processed/processed_spatial.txt', 'w')
+    f_mindset_txt = open('processed_data/processed/processed_mindset.txt', 'w')
+    f_tangram_txt = open('processed_data/processed/processed_tangram.txt', 'w')
+    f_free_txt = open('processed_data/processed/processed_free.txt', 'w')
+
+    headers_tangram = process_tangram_csv.get_headers()
+    #header_mindset = process_mindset_csv.get_headers()
+
+    for header in headers_tangram:
+        f_tangram_txt.write(str(header) + '\t')
+    f_tangram_txt.write('\n')
 
     result=''
     for root, subdirs, files in os.walk(dir):
@@ -39,19 +42,27 @@ def main(argv):
             if "tangram" in argv and "tangram" in filename:
                 print(filename)
                 result = process_tangram_csv.analyze_result(filename, root)
-                tangram_matrix.append(result)
+                for data in result:
+                    f_tangram_txt.write(str(data) + '\t')
+                f_tangram_txt.write('\n')
             elif "mindset" in argv and "mindset" in filename:
                 print(filename)
                 result = process_mindset_csv.analyze_result(filename, root)
-                mindset_matrix.append(result)
+                for data in result:
+                    f_mindset_txt.write(str(data) + '\t')
+                f_mindset_txt.write('\n')
             elif "spatial" in argv and "spatial" in filename:
                 print(filename)
                 result = process_spatial_csv.analyze_result(filename, root)
-                spatial_matrix.append(filename)
+                for data in result:
+                    f_spatial_txt.write(str(data) + '\t')
+                f_spatial_txt.write('\n')
             elif "free" in argv and "free" in filename:
                 print(filename)
                 result = process_free_csv.analyze_result(filename, root)
-                free_matrix.append()
+                for data in result:
+                    f_free_txt.write(str(data) + '\t')
+                f_free_txt.write('\n')
 
 if __name__ == "__main__":
     argv = sys.argv[1:]
