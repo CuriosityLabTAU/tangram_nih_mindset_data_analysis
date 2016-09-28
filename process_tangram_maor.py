@@ -99,7 +99,12 @@ def analyze_tangram_game(filename, pathname='./processed_data/'):
 
 
 result = analyze_tangram_game('bag_tangram_test31.bag.txt', pathname='./processed_data/')
-print result
+# result = analyze_tangram_game('maor_test_bag.bag.txt', pathname='./processed_data/')
+# print len(result)
+if len(result) < 70:
+    for n in range(70-len(result)):
+        result.append('NULL')
+# print result
 
 # old algorithm that output only the child results
 #
