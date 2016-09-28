@@ -4,6 +4,8 @@ import os
 
 # returns a list with [who_is_playing ('R'/'C'), start_time, child selection, end_time, game result, number of moves, total time of game, who_is_playing, ...]
 
+def get_headers():
+    return ['subject_id', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)', 'player', 'start_time', 'selection', 'end_time', 'result', '#moves', 'total_game_time(sec)']
 
 def analyze_result(filename, pathname='./processed_data/'):
 
@@ -14,6 +16,10 @@ def analyze_result(filename, pathname='./processed_data/'):
     first_solved_flag = False
     result_list = []
     #result_list.append(who_is_playing)
+
+    subject_id = filename.replace('bag_tangram_test', '')
+    subject_id = subject_id.replace('.txt', '')
+    result_list.append(subject_id)
 
     with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
@@ -37,7 +43,7 @@ def analyze_result(filename, pathname='./processed_data/'):
                         #print 'total time: '
                         #print total_time
                         game_result = 1 # win
-                        result_list.append(end_time)
+                        result_list.append(end_time.strftime('%Y-%m-%d-%H-%M-%S'))
                         result_list.append(game_result)
                         result_list.append(number_of_moves)
                         result_list.append(total_time.total_seconds())
@@ -53,7 +59,7 @@ def analyze_result(filename, pathname='./processed_data/'):
                         end_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                         total_time = end_time - start_time
                         game_result = 0  # lose
-                        result_list.append(end_time)
+                        result_list.append(end_time.strftime('%Y-%m-%d-%H-%M-%S'))
                         result_list.append(game_result)
                         result_list.append(number_of_moves)
                         result_list.append(total_time.total_seconds())
@@ -72,7 +78,7 @@ def analyze_result(filename, pathname='./processed_data/'):
                         #child_play_flag = True
                     start_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                     result_list.append(who_is_playing)
-                    result_list.append(start_time)
+                    result_list.append(start_time.strftime('%Y-%m-%d-%H-%M-%S'))
                     result_list.append(dic['comment'][1][0])
                     first_solved_flag = False
                     first_finish_flag = False
@@ -86,7 +92,7 @@ def analyze_result(filename, pathname='./processed_data/'):
                     end_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                     total_time = end_time - start_time
                     game_result = 0  # lose
-                    result_list.append(end_time)
+                    result_list.append(end_time.strftime('%Y-%m-%d-%H-%M-%S'))
                     result_list.append(game_result)
                     result_list.append(number_of_moves)
                     result_list.append(total_time.total_seconds())
@@ -97,14 +103,15 @@ def analyze_result(filename, pathname='./processed_data/'):
                     number_of_moves = 0
 
 
-    if len(result_list) < 70:
-        for n in range(70-len(result_list)):
+    if len(result_list) < 71:
+        for n in range(71-len(result_list)):
             result_list.append('NULL')
     return result_list
 
-#result = analyze_tangram_game('bag_tangram_test31.bag.txt', pathname='./processed_data/')
-# result = analyze_tangram_game('maor_test_bag.bag.txt', pathname='./processed_data/')
-# print len(result)
+result = analyze_result('bag_tangram_test31.txt', pathname='./processed_data/txt/')
+print result
+#result = analyze_result('maor_test_bag.bag.txt', pathname='./processed_data/')
+print len(result)
 
 # print result
 
