@@ -41,11 +41,11 @@ def main(argv):
 
     for header in header_mindset:
         f_mindset_txt.write(str(header) + '\t')
-    f_tangram_txt.write('\n')
+    f_mindset_txt.write('\n')
 
     for header in header_spatial:
         f_spatial_txt.write(str(header) + '\t')
-    f_tangram_txt.write('\n')
+    f_spatial_txt.write('\n')
 
 
 
