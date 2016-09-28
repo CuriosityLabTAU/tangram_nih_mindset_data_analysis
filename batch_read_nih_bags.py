@@ -14,8 +14,8 @@ def convert_bag2txt (filename, output_dir, topics_list):
 	# bag_mindset -> mindset_assessment_app
 
 	currentApp=""
-
-        file_info = re.split('[_]',filename)
+		#file_info = re.split('[_]', filename)
+        file_info = re.split('[_|.]',filename)  #rinat added . to seperate uid from .bag
         pID = file_info[6].lower()
         print pID
 
@@ -116,9 +116,11 @@ def read_spatial_skill(topic,msg,strDate,f_spatial_csv):
 # convert bag files
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
 
-dir = "../NIH_grit_pilot_rosbag/"
-output_dir = "results/txt/"
-#dir = "./bags"
+#dir = "../NIH_grit_pilot_rosbag/"
+dir = "./bags"
+#output_dir = "results/txt/"
+output_dir = "processed_data/txt/"
+
 files = glob.glob(dir+"/*.bag")
 
 for filename in files:
