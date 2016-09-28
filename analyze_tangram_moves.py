@@ -14,6 +14,10 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
     result_list = []
     #result_list.append(who_is_playing)
 
+    subject_id = filename.replace('bag_tangram_test', '')
+    subject_id = subject_id.replace('.txt', '')
+    result_list.append(subject_id)
+
     with open(pathname + filename, 'r') as fp:
         for line in fp:
             #print line[6:]
