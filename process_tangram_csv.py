@@ -1,10 +1,11 @@
 import ast
 import datetime
+import os
 
 # returns a list with [child selection, game result, number of moves, total time of game, child_selection,...]
 
 
-def analyze_tangram_game(filename, pathname='./processed_data/'):
+def analyze_result(filename, pathname='./processed_data/'):
 
     child_play_flag = False
     number_of_moves = 0
@@ -12,7 +13,7 @@ def analyze_tangram_game(filename, pathname='./processed_data/'):
 
     result_list = []
 
-    with open(pathname + filename, 'r') as fp:
+    with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
             dic = ast.literal_eval(line[6:])
             if len(dic['comment'])>0:
@@ -27,6 +28,7 @@ def analyze_tangram_game(filename, pathname='./processed_data/'):
                 if dic['comment'][0] == 'child_win':
                     #print dic['comment'][0] + ' ' + dic['time']
                     end_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
+                    print end_time
                     total_time = end_time - start_time
                     #print 'total time: '
                     #print total_time
@@ -59,5 +61,5 @@ def analyze_tangram_game(filename, pathname='./processed_data/'):
     return result_list
 
 
-result = analyze_tangram_game('bag_tangram_17.txt', pathname='./processed_data/')
-print result
+#result = analyze_result('bag_tangram_test17.bag.txt', pathname='./processed_data/')
+#print result

@@ -1,3 +1,6 @@
+data: {u'action': u'down', u'comment': u'{"pos": "(1303.0, 1073.0)"}', u'obj': u'start_button_pre', u'time': u'2016_09_02_10_58_22_799878'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_pre', u'time': u'2016_09_02_10_58_22_827128'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1306.0, 1070.0)"}', u'obj': u'start_button_pre', u'time': u'2016_09_02_10_58_23_516377'}
 data: {u'action': u'down', u'comment': u'{"pos": "(414.0, 460.99999999999994)"}', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_550742'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_563328'}
 data: {u'action': u'up', u'comment': u'{"pos": "(414.0, 460.99999999999994)"}', u'obj': u'9_B_fixed_12_fluffy', u'time': u'2016_09_02_10_59_05_685098'}
@@ -38,6 +41,9 @@ data: {u'action': u'down', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}'
 data: {u'action': u'press', u'comment': u'', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_674005'}
 data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_719751'}
 data: {u'action': u'up', u'comment': u'{"pos": "(404.0, 387.00000000000006)"}', u'obj': u'0_B_fixed_02_fluffy', u'time': u'2016_09_02_11_01_00_731360'}
+data: {u'action': u'down', u'comment': u'{"pos": "(1725.0, 1061.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_26_19_416023'}
+data: {u'action': u'press', u'comment': u'', u'obj': u'start_button_post', u'time': u'2016_09_02_11_26_19_462969'}
+data: {u'action': u'up', u'comment': u'{"pos": "(1725.0, 1061.0)"}', u'obj': u'start_button_post', u'time': u'2016_09_02_11_26_20_200462'}
 data: {u'action': u'down', u'comment': u'{"pos": "(439.0, 516.99999999999989)"}', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_484123'}
 data: {u'action': u'press', u'comment': u'', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_502273'}
 data: {u'action': u'up', u'comment': u'{"pos": "(439.0, 516.99999999999989)"}', u'obj': u'0_B_growth_01_fluffy', u'time': u'2016_09_02_11_26_46_556939'}
