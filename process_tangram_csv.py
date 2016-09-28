@@ -108,10 +108,10 @@ def analyze_result(filename, pathname='./processed_data/'):
             result_list.append('NULL')
     return result_list
 
-result = analyze_result('bag_tangram_test31.txt', pathname='./processed_data/txt/')
-print result
+#result = analyze_result('bag_tangram_test31.txt', pathname='./processed_data/txt/')
+#print result
 #result = analyze_result('maor_test_bag.bag.txt', pathname='./processed_data/')
-print len(result)
+#print len(result)
 
 # print result
 

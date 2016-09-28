@@ -24,17 +24,30 @@ def main(argv):
 
     print("Analysis Type = ", argv)
 
+    #init txt files:
     f_spatial_txt = open('processed_data/processed/processed_spatial.txt', 'w')
     f_mindset_txt = open('processed_data/processed/processed_mindset.txt', 'w')
     f_tangram_txt = open('processed_data/processed/processed_tangram.txt', 'w')
     f_free_txt = open('processed_data/processed/processed_free.txt', 'w')
 
+    #set headers of files:
     headers_tangram = process_tangram_csv.get_headers()
-    #header_mindset = process_mindset_csv.get_headers()
+    header_mindset = process_mindset_csv.get_headers()
+    header_spatial = process_spatial_csv.get_headers()
 
     for header in headers_tangram:
         f_tangram_txt.write(str(header) + '\t')
     f_tangram_txt.write('\n')
+
+    for header in header_mindset:
+        f_mindset_txt.write(str(header) + '\t')
+    f_tangram_txt.write('\n')
+
+    for header in header_spatial:
+        f_spatial_txt.write(str(header) + '\t')
+    f_tangram_txt.write('\n')
+
+
 
     result=''
     for root, subdirs, files in os.walk(dir):

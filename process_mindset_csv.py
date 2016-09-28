@@ -5,7 +5,14 @@ import os
 # returns a list with [child selection, game result, number of moves, total time of game, child_selection,...]
 
 def get_headers():
-    return ['subject_id', 'selection_pre1','result_pre1','time_pre1']
+    headers = []
+    headers.append("subject_id")
+    for game in ['pre','post']:
+        for i in range(0, 10):
+            headers.append(game+'_selection_'+str(i))
+            headers.append(game + '_result_' + str(i))
+            headers.append(game + '_time_' + str(i))
+    return headers
 
 def analyze_result(filename, pathname='./processed_data/'):
     b_start = False
