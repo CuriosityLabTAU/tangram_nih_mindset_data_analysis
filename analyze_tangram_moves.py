@@ -1,9 +1,12 @@
 import ast
 import datetime
-import os
+import os,re
 import matplotlib.pyplot as plt
-# returns a list of time stamps of child moves in grit level. time is in seconds relative to beginning of level.
 
+
+GRIT_LEVEL_PUZZLE = '{"pieces": [["large triangle2", "270", "0 1"], ["medium triangle", "270", "0 0"], ["square", "0", "2 1"], ["small triangle2", "270", "2 2"], ["small triangle1", "0", "2 0"], ["large triangle1", "90", "0 1"], ["parrallelogram", "180", "1 0"]], "size": "5 5"}'
+
+# returns a list of time stamps of child moves in grit level. time is in seconds relative to beginning of level.
 def get_headers():
     return ['subject_id', 'move_time', 'move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time', 'move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time','move_time']
 
@@ -11,21 +14,41 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
 
     game_counter = -1
     who_is_playing = 'R' # can be 'R' or 'C'
-    child_play_flag = False
     number_of_moves = 0
     game_result = 0 # 0 for failure, 1 for success
     first_solved_flag = False
     result_list = []
     #result_list.append(who_is_playing)
 
-    subject_id = filename.replace('bag_tangram_test', '')
-    subject_id = subject_id.replace('.txt', '')
+    subject_id = filename.lstrip('bag_tangram_').rstrip('.txt')
     result_list.append(subject_id)
 
     with open(os.path.join(pathname,filename), 'r') as fp:
         for line in fp:
             #print line[6:]
             dic = ast.literal_eval(line[6:])
+            
+            if 'yes_button' in dic['obj']:
+                game_counter = -1
+                who_is_playing = 'R'
+                first_solved_flag = False
+                first_finish_flag = False
+            
+            if 'goto_game' in dic['obj']:
+                game_number = dic['obj']
+                game_number = re.split('[_]',game_number)
+                game_number = game_number[1].lstrip('game')
+                game_counter = int(game_number)-2 #game_counter starts from zero (so -1), and game_coutner increments when puzzle selected (so -1)
+
+                if (game_counter % 2 == 0) or game_counter < 0:
+                    who_is_playing = 'R'
+                else:
+                    who_is_playing = 'C'
+                
+                first_solved_flag = False
+                first_finish_flag = False
+                continue
+
             if len(dic['comment'])>0:
                 # if dic['comment'][0] == 'select_treasure':
                 #     #print dic['comment']
@@ -47,9 +70,10 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                         # total_time = end_time - start_time
                         #print 'total time: '
                         #print total_time
-                        # game_result = 1 # win
+                        game_result = 'WIN' # win
                         # result_list.append(end_time)
-                        # result_list.append(game_result)
+                        if game_counter == 7:
+                            result_list.append(game_result)
                         # result_list.append(number_of_moves)
                         # result_list.append(total_time.total_seconds())
                         if who_is_playing == 'R':
@@ -63,9 +87,10 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                         first_finish_flag = True
                         # end_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                         # total_time = end_time - start_time
-                        # game_result = 0  # lose
+                        game_result = 'LOSE'  # lose
                         # result_list.append(end_time)
-                        # result_list.append(game_result)
+                        if game_counter == 7:
+                            result_list.append(game_result)
                         # result_list.append(number_of_moves)
                         # result_list.append(total_time.total_seconds())
                         if who_is_playing == 'R':
@@ -76,6 +101,11 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
 
                 # if dic['comment'][0] == 'generate_selection':
                 #     print dic['comment'][0]
+
+                #if dic['comment'][0] == 'selection_screen' and dic['comment'][2]!='robot':
+                #    print "I'm here in game #%s" % game_counter
+                #    print dic['comment'][1][0]
+                #    print GRIT_LEVEL_PUZZLE in dic['comment'][1][0]
 
                 if dic['comment'][0] == 'press_treasure' and dic['comment'][2]=='game':
                    # if dic['comment'][3][0] != 'child_selection' or dic['comment'][2] != 'robot':
@@ -98,9 +128,11 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                     first_finish_flag = True
                     end_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
                     total_time = end_time - start_time
-                    game_result = 0  # lose
+                    
+                    game_result = 'QUIT'  # lose
                     # result_list.append(end_time)
-                    # result_list.append(game_result)
+                    if game_counter == 7 :
+                        result_list.append(game_result)
                     # result_list.append(number_of_moves)
                     # result_list.append(total_time.total_seconds())
                     if who_is_playing == 'R':
@@ -112,12 +144,13 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
     return result_list
 
 
-result = analyze_tangram_grit_moves('bag_tangram_test31.bag.txt', pathname='./processed_data/')
-# plt.figure()
-# plt.plot(result)
-# plt.pause(10)
+#result = analyze_tangram_grit_moves('bag_tangram_test31.bag.txt', pathname='./processed_data/')
+#result = analyze_tangram_grit_moves('bag_tangram_p026.txt', pathname='./results/txt/')
+#print result[1:-1]
+#plt.figure()
+#plt.plot(result[1:-1])
+#plt.pause(10)
 
-#print result
 
 # old algorithm that output only the child results
 #
