@@ -40,6 +40,8 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                 game_number = game_number[1].lstrip('game')
                 game_counter = int(game_number)-2 #game_counter starts from zero (so -1), and game_coutner increments when puzzle selected (so -1)
 
+                #print "restarted from game #%s" % game_counter
+
                 if (game_counter % 2 == 0) or game_counter < 0:
                     who_is_playing = 'R'
                 else:
@@ -49,11 +51,26 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                 first_finish_flag = False
                 continue
 
+            if game_counter >9:
+                print "game #%s found" % game_counter
+
+            #print game_counter
+
             if len(dic['comment'])>0:
                 # if dic['comment'][0] == 'select_treasure':
                 #     #print dic['comment']
                 #     #print dic['comment'][1][0]
                 if dic['comment'][0] == 'not_solved':
+                    # print dic['comment']
+                    #print dic['comment'][0]
+                    #if child_play_flag is True:
+                    if game_counter == 7: # grit level
+                        current_time = datetime.datetime.strptime(dic['time'], '%Y_%m_%d_%H_%M_%S_%f')
+                        relative_time = current_time - start_time
+                        result_list.append(relative_time.total_seconds())
+                    number_of_moves = number_of_moves + 1
+                if dic['obj'] == 'rotate_btn' and dic['action'] == "down":
+                    #print "rotate button pressed"
                     # print dic['comment']
                     #print dic['comment'][0]
                     #if child_play_flag is True:
@@ -107,7 +124,7 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                 #    print dic['comment'][1][0]
                 #    print GRIT_LEVEL_PUZZLE in dic['comment'][1][0]
 
-                if dic['comment'][0] == 'press_treasure' and dic['comment'][2]=='game':
+                if dic['comment'][0] == 'tangram_screen' and dic['comment'][2]=='hourglass':
                    # if dic['comment'][3][0] != 'child_selection' or dic['comment'][2] != 'robot':
                         #print 'child_selected ' + str(dic['comment'][1][0]) + ' ' + dic['time']
                         #child_play_flag = True
@@ -141,14 +158,23 @@ def analyze_tangram_grit_moves(filename, pathname='./processed_data/'):
                         who_is_playing = 'R'
                     number_of_moves = 0
 
-    return result_list
+        result_incremental = []
+        result_incremental.append(result_list[0])
+
+        for i in range(1,len(result_list)-1):
+            try:
+                result_incremental.append(float(result_list[i+1])-float(result_list[i]))
+            except:
+                continue
+
+    return result_list, result_incremental
 
 
 #result = analyze_tangram_grit_moves('bag_tangram_test31.bag.txt', pathname='./processed_data/')
-#result = analyze_tangram_grit_moves('bag_tangram_p026.txt', pathname='./results/txt/')
-#print result[1:-1]
+#result, inc = analyze_tangram_grit_moves('bag_tangram_p018.txt', pathname='./results/txt/')
+#print inc
 #plt.figure()
-#plt.plot(result[1:-1])
+#plt.plot(inc[1:])
 #plt.pause(10)
 
 
