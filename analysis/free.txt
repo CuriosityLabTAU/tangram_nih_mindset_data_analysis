@@ -1,0 +1,293 @@
+##################################
+Stats
+##################################
+
+t0 mean (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 7.716399
+[1] -141.6995
+[1] 7.9508
+[1] 9.500244
+
+dur mean (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 37.34087
+[1] 38.79275
+[1] 43.23404
+[1] 39.5375
+
+entropy mean (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 1.373776
+[1] 1.494137
+[1] 1.332593
+[1] 1.481252
+
+t0 Median (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 7.086517
+[1] 6.191369
+[1] 6.462126
+[1] 5.813973
+
+dur Median (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 40.84226
+[1] 36.25328
+[1] 46.52095
+[1] 38.17858
+
+entropy Median (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 1.512766
+[1] 1.475881
+[1] 1.470323
+[1] 1.509234
+
+t0 sd (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 14.08825
+[1] 506.0298
+[1] 4.458644
+[1] 9.548608
+
+dur sd (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 12.98363
+[1] 19.24188
+[1] 13.10741
+[1] 11.20852
+
+entropy sd (g_minus_pre,g_plus_pre,g_minus_post,g_plus_post)
+[1] 0.3592603
+[1] 0.3109574
+[1] 0.3605751
+[1] 0.1078184
+
+##################################
+Normality Test
+##################################
+
+	Shapiro-Wilk normality test
+
+data:  g_t0
+W = 0.13877, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  g_dur
+W = 0.93007, p-value = 0.0006213
+
+
+	Shapiro-Wilk normality test
+
+data:  g_entropy
+W = 0.63139, p-value = 3.702e-12
+
+
+##################################
+pre to post comparision for all data (non-condition)
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_t0_post, g_t0_pre)
+Z = 0.011262, p-value = 0.9955
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_t0_pre, g_t0_post)
+[1] 36.47222
+[1] 36.52778
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_dur_post, g_dur_pre)
+Z = 1.7119, p-value = 0.08802
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_dur_pre, g_dur_post)
+[1] 32.27778
+[1] 40.72222
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_entropy_post, g_entropy_pre)
+Z = -0.02253, p-value = 0.9844
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_entropy_pre, g_entropy_post)
+[1] 36.55556
+[1] 36.44444
+
+##################################
+t0,duration,entropy (pre), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_pre_t0, g_plus_pre_t0)
+Z = 1.4326, p-value = 0.1584
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_t0, g_plus_pre_t0)
+[1] 20.75
+[1] 15.6875
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_pre_total_duration, g_plus_pre_total_duration)
+Z = 0.76406, p-value = 0.4592
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_total_duration, g_plus_pre_total_duration)
+[1] 19.7
+[1] 17
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_pre_multi_entropy, g_plus_pre_multi_entropy)
+Z = 0.4618, p-value = 0.6539
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_multi_entropy, g_plus_pre_multi_entropy)
+[1] 19.225
+[1] 17.59375
+
+##################################
+t0,duration,entropy (post), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_post_t0, g_plus_post_t0)
+Z = 0.38203, p-value = 0.7176
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_post_t0, g_plus_post_t0)
+[1] 19.1
+[1] 17.75
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_post_total_duration, g_plus_post_total_duration)
+Z = 1.3371, p-value = 0.1889
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_post_total_duration, g_plus_post_total_duration)
+[1] 20.6
+[1] 15.875
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_post_multi_entropy, g_plus_post_multi_entropy)
+Z = -1.2745, p-value = 0.2081
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_post_multi_entropy, g_plus_post_multi_entropy)
+[1] 16.5
+[1] 21
+
+##################################
+pre to post, g_minus condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_post_t0, g_minus_pre_t0)
+Z = -0.56805, p-value = 0.5831
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_t0, g_minus_post_t0)
+[1] 21.55
+[1] 19.45
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_post_total_duration, g_minus_pre_total_duration)
+Z = 1.6771, p-value = 0.0965
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_total_duration, g_minus_post_total_duration)
+[1] 17.4
+[1] 23.6
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_minus_post_multi_entropy, g_minus_pre_multi_entropy)
+Z = -0.75786, p-value = 0.4568
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_pre_multi_entropy, g_minus_post_multi_entropy)
+[1] 21.9
+[1] 19.1
+
+##################################
+pre to post, g_plus condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_plus_post_t0, g_plus_pre_t0)
+Z = 0.56533, p-value = 0.5896
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_plus_pre_t0, g_plus_post_t0)
+[1] 15.5625
+[1] 17.4375
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_plus_post_total_duration, g_plus_pre_total_duration)
+Z = 0.90453, p-value = 0.3809
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_plus_pre_total_duration, g_plus_post_total_duration)
+[1] 15
+[1] 18
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by
+	 g (g_plus_post_multi_entropy, g_plus_pre_multi_entropy)
+Z = 0.98018, p-value = 0.3365
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_plus_pre_multi_entropy, g_plus_post_multi_entropy)
+[1] 14.875
+[1] 18.125
+
+##################################
+(post-pre), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_change_t0, g_plus_change_t0)
+Z = -1.3371, p-value = 0.1889
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_change_t0, g_plus_change_t0)
+[1] 16.4
+[1] 21.125
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_change_dur, g_plus_change_dur)
+Z = 0.73222, p-value = 0.4786
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_change_dur, g_plus_change_dur)
+[1] 19.65
+[1] 17.0625
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_change_entropy, g_plus_change_entropy)
+Z = -0.70039, p-value = 0.4984
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank (g_minus_change_entropy, g_plus_change_entropy)
+[1] 17.4
+[1] 19.875
+
+

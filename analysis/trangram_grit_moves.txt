@@ -1,0 +1,129 @@
+##################################
+Touch interval Stats
+##################################
+
+G minus	mean,		SD
+		 1.31412 	 1.960028
+G plus	mean,		SD
+		 1.789804 	 2.255848
+
+##################################
+Mann Kendall Trend Test on touch intervals
+##################################
+G minus condition:
+tau = -0.0236, 2-sided pvalue =0.80504
+tau = 0.027, 2-sided pvalue =0.82097
+tau = -0.0779, 2-sided pvalue =0.094695
+tau = -0.23, 2-sided pvalue =0.020409
+tau = 0.0728, 2-sided pvalue =0.33785
+tau = -0.0352, 2-sided pvalue =0.5969
+tau = -0.0514, 2-sided pvalue =0.7513
+tau = -0.107, 2-sided pvalue =0.16148
+tau = -0.0835, 2-sided pvalue =0.33663
+tau = -0.109, 2-sided pvalue =0.33317
+tau = 0.0719, 2-sided pvalue =0.14443
+tau = 0.133, 2-sided pvalue =0.0068515
+tau = -0.147, 2-sided pvalue =0.1425
+tau = -0.0221, 2-sided pvalue =0.71998
+tau = 0.185, 2-sided pvalue =1.1682e-06
+tau = 0.116, 2-sided pvalue =0.020358
+tau = 0.212, 2-sided pvalue =0.00017268
+tau = 0.19, 2-sided pvalue =0.0057383
+tau = -0.0938, 2-sided pvalue =0.30159
+G plus condition:
+tau = -0.0601, 2-sided pvalue =0.49758
+tau = -0.0338, 2-sided pvalue =0.82555
+tau = -0.165, 2-sided pvalue =0.045019
+tau = -0.143, 2-sided pvalue =0.36688
+tau = -0.143, 2-sided pvalue =0.012213
+tau = -0.0952, 2-sided pvalue =0.33867
+tau = -0.115, 2-sided pvalue =0.10244
+tau = -0.0189, 2-sided pvalue =0.62368
+tau = -0.114, 2-sided pvalue =0.26323
+tau = -0.00664, 2-sided pvalue =0.91897
+tau = -0.393, 2-sided pvalue =< 2.22e-16
+tau = 0.0389, 2-sided pvalue =0.36558
+tau = 0.0476, 2-sided pvalue =0.60565
+tau = -0.205, 2-sided pvalue =0.063952
+tau = 0.202, 2-sided pvalue =0.1084
+tau = -0.123, 2-sided pvalue =0.0016346
+tau = -0.0683, 2-sided pvalue =0.32838
+tau = -0.243, 2-sided pvalue =0.03523
+tau = -0.15, 2-sided pvalue =0.44404
+tau = -0.0432, 2-sided pvalue =0.3923
+
+##################################
+Trend Significance Test1: Kendall's tau, between conditions
+##################################
+
+tau_minus stats
+N	Mean				Median			SD
+19 	 0.001438901 	 -0.02356902 	 0.1251699 
+
+tau_plus stats
+N	Mean				Median		SD
+20 	 -0.09161593 	 -0.1045108 	 0.1224885 
+
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (tau_minus, tau_plus)
+Z = 2.1916, p-value = 0.02827
+alternative hypothesis: true mu is not equal to 0
+
+Mean Rank 
+[1] 24.10526
+[1] 16.1
+
+##################################
+Trend Significance Test2: #positive vs. #negative trends  based on Kendall's tau, between conditions
+##################################
+     [,1] [,2]
+[1,]   11    8
+[2,]   17    3
+                    X^2 df P(> X^2)
+Likelihood Ratio 3.6284  1 0.056802
+Pearson          3.5351  1 0.060082
+
+Phi-Coefficient   : 0.301 
+Contingency Coeff.: 0.288 
+Cramer's V        : 0.301 
+
+	Fisher's Exact Test for Count Data
+
+data:  data
+p-value = 0.08236
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.0352037 1.3454419
+sample estimates:
+odds ratio 
+  0.251923 
+
+
+##################################
+Trend Significance Test3: #significant_positive vs. #significant_negative trends based on Kendall's tau, between conditions
+##################################
+     [,1] [,2]
+[1,]    1    5
+[2,]    5    0
+                    X^2 df  P(> X^2)
+Likelihood Ratio 9.7515  1 0.0017918
+Pearson          7.6389  1 0.0057123
+
+Phi-Coefficient   : 0.833 
+Contingency Coeff.: 0.64 
+Cramer's V        : 0.833 
+
+	Fisher's Exact Test for Count Data
+
+data:  data
+p-value = 0.01515
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.0000000 0.7384618
+sample estimates:
+odds ratio 
+         0 
+
+
