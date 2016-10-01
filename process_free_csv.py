@@ -156,5 +156,5 @@ def sequence_entropy(sequence):
     return entropy
 
 
-#results = analyze_result(filename='bag_free_test14.txt')
-#print(results)
+results = analyze_result('bag_free_p044.txt','./results/txt/')
+print(results)
