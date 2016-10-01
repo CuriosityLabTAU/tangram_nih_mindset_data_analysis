@@ -42,6 +42,7 @@ def main(argv):
     # -------------------------------------------------------------------------------
     f_tangram_csv = open(csv_dir+'/processed_tangram.csv', 'w')
     f_tangram_grit_csv = open(csv_dir+'/processed_tangram_grit.csv', 'w')
+    f_tangram_grit_inc_csv = open(csv_dir+'/processed_tangram_grit_inc.csv', 'w')
     f_spatial_csv = open(csv_dir+'/processed_spatial.csv', 'w')
     f_mindset_csv = open(csv_dir+'/processed_mindset.csv', 'w')
     f_free_csv = open(csv_dir+'/processed_free.csv', 'w')
@@ -116,10 +117,13 @@ def main(argv):
                     f_tangram_csv.write(str(data) + ',')
                 f_tangram_csv.write('\n')
                 #grit:
-                result = analyze_tangram_moves.analyze_tangram_grit_moves(filename, root)
+                result,result_inc = analyze_tangram_moves.analyze_tangram_grit_moves(filename, root)
                 for data in result:
                     f_tangram_grit_csv.write(str(data) + ',')
+                for data in result_inc:
+                    f_tangram_grit_inc_csv.write(str(data) + ',')
                 f_tangram_grit_csv.write('\n')
+                f_tangram_grit_inc_csv.write('\n')
 
     # -------------------------------------------------------------------------------
     # make one big file with all the data
