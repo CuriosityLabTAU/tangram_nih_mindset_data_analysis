@@ -1,0 +1,127 @@
+##################################
+# of correct answers stats
+##################################
+
+G minus
+N,pre_mean,pre_med,pre_SD,post_mean,post_med,post_SD
+20 , 10.65 , 11.5 , 3.422449 , 12.65 , 13 , 2.621269 
+
+G plus
+N,pre_mean,pre_med,pre_SD,post_mean,post_med,post_SD
+16 , 11.6875 , 12.5 , 3.341033 , 12.9375 , 14 , 3.065262 
+
+
+##################################
+S-H Normality Test (p>0.05 means can assume normal distribution)
+##################################
+
+	Shapiro-Wilk normality test
+
+data:  g
+W = 0.92111, p-value = 0.00024
+
+
+
+##################################
+Levene Equal Variance Test (p>0.05 means can assume homogeneity)
+##################################
+
+ (g_minus_pre, g_plus_pre)
+Levene's Test for Homogeneity of Variance (center = median)
+      Df F value Pr(>F)
+group  1  0.0583 0.8107
+      34               
+
+ (g_minus_post, g_plus_post)
+Levene's Test for Homogeneity of Variance (center = median)
+      Df F value Pr(>F)
+group  1  0.1702 0.6826
+      34               
+
+##################################
+pre to post comparision for all data (non-condition)
+##################################
+
+Mean (pre,post)
+[1] 11.11111
+[1] 12.77778
+
+SD (pre,post)
+[1] 3.378738
+[1] 2.788867
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_all_post, g_all_pre)
+Z = 2.136, p-value = 0.03233
+alternative hypothesis: true mu is not equal to 0
+
+
+Mean Rank (pre_all,post_all)
+[1] 31.26389
+[1] 41.73611
+
+##################################
+#of correct answers (pre), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_pre, g_plus_pre)
+Z = -0.96015, p-value = 0.3455
+alternative hypothesis: true mu is not equal to 0
+
+
+Mean Rank (g_minus_pre, g_plus_pre)
+[1] 17
+[1] 20.375
+
+##################################
+#of correct answers (post), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_post, g_plus_post)
+Z = -0.57839, p-value = 0.5729
+alternative hypothesis: true mu is not equal to 0
+
+
+Mean Rank (g_minus_post, g_plus_post)
+[1] 17.6
+[1] 19.625
+
+
+##################################
+#correct answers (post-pre), between condition
+##################################
+
+	Exact Wilcoxon-Mann-Whitney Test
+
+data:  v by g (g_minus_change, g_plus_change)
+Z = 0.98477, p-value = 0.3335
+alternative hypothesis: true mu is not equal to 0
+
+
+Mean Rank (g_minus_change, g_plus_change)
+[1] 20.025
+[1] 16.59375
+
+
+##################################
+# of participants whose score increased vs. decreased in post, between condition
+##################################
+     [,1] [,2]
+[1,]    3   14
+[2,]    3   11
+
+	Fisher's Exact Test for Count Data
+
+data:  data
+p-value = 1
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.08774489 7.12733329
+sample estimates:
+odds ratio 
+ 0.7918993 
