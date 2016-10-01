@@ -1,0 +1,130 @@
+#####################################################
+2x3 Chi-square test sum(T1:T5) for each difficulty choice, between condition
+#####################################################
+     [,1] [,2] [,3]
+[1,]   50   23   24
+[2,]   21   27   25
+
+	Pearson's Chi-squared test
+
+data:  total
+X-squared = 8.9761, df = 2, p-value = 0.01124
+
+                    X^2 df P(> X^2)
+Likelihood Ratio 9.1398  2 0.010359
+Pearson          8.9761  2 0.011242
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.224 
+Cramer's V        : 0.23 
+
+	Fisher's Exact Test for Count Data
+
+data:  total
+p-value = 0.01091
+alternative hypothesis: two.sided
+
+
+############################
+T1, between condition
+############################
+     [,1] [,2] [,3]
+[1,]   10    6    4
+[2,]    8    3    4
+                     X^2 df P(> X^2)
+Likelihood Ratio 0.52534  2  0.76900
+Pearson          0.51852  2  0.77162
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.121 
+Cramer's V        : 0.122 
+
+	Fisher's Exact Test for Count Data
+
+data:  t1
+p-value = 0.8185
+alternative hypothesis: two.sided
+
+
+############################
+T2, between condition
+############################
+     [,1] [,2] [,3]
+[1,]   10    7    3
+[2,]    3    7    5
+                    X^2 df P(> X^2)
+Likelihood Ratio 3.7651  2  0.15220
+Pearson          3.6290  2  0.16292
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.307 
+Cramer's V        : 0.322 
+
+	Fisher's Exact Test for Count Data
+
+data:  t2
+p-value = 0.189
+alternative hypothesis: two.sided
+
+
+############################
+T3, between condition
+############################
+     [,1] [,2] [,3]
+[1,]    7    7    5
+[2,]    4    7    4
+                     X^2 df P(> X^2)
+Likelihood Ratio 0.46830  2  0.79124
+Pearson          0.46514  2  0.79249
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.116 
+Cramer's V        : 0.117 
+
+	Fisher's Exact Test for Count Data
+
+data:  t3
+p-value = 0.9058
+alternative hypothesis: two.sided
+
+
+############################
+T4(grit), between condition
+############################
+     [,1] [,2] [,3]
+[1,]   13    1    5
+[2,]    2    5    8
+                    X^2 df  P(> X^2)
+Likelihood Ratio 12.152  2 0.0022972
+Pearson          11.109  2 0.0038704
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.496 
+Cramer's V        : 0.572 
+
+	Fisher's Exact Test for Count Data
+
+data:  t4
+p-value = 0.002924
+alternative hypothesis: two.sided
+
+
+############################
+T5, between condition
+############################
+     [,1] [,2] [,3]
+[1,]   10    2    7
+[2,]    4    5    4
+                    X^2 df P(> X^2)
+Likelihood Ratio 3.6818  2  0.15867
+Pearson          3.6797  2  0.15884
+
+Phi-Coefficient   : NA 
+Contingency Coeff.: 0.321 
+Cramer's V        : 0.339 
+
+	Fisher's Exact Test for Count Data
+
+data:  t5
+p-value = 0.2421
+alternative hypothesis: two.sided
