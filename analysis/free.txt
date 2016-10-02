@@ -107,6 +107,13 @@ Mean Rank (g_t0_pre, g_t0_post)
 
 duration
 
+	Wilcoxon rank sum test
+
+data:  g_dur_pre and g_dur_post
+W = 527, p-value = 0.04286
+alternative hypothesis: true location shift is not equal to 0
+
+
 	Exact Wilcoxon-Mann-Whitney Test
 
 data:  v by g (g_dur_post, g_dur_pre)
@@ -336,3 +343,4 @@ alternative hypothesis: true mu is not equal to 0
 Mean Rank (g_minus_change_entropy, g_plus_change_entropy)
 [1] 17.6
 [1] 21.61111
+
